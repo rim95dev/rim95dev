@@ -23,278 +23,288 @@
     .f2{animation:fl 0.7s steps(1) 0.35s infinite}
     @keyframes fl{0%{opacity:1}50%{opacity:0}100%{opacity:1}}
     
-    .mo0{animation:mok0 28.673529411764704s linear infinite backwards}
-    @keyframes mok0{0%{transform:translateX(0);opacity:0}1.74%{transform:translateX(0);opacity:0}1.92%{opacity:1}10.98%{transform:translateX(450px)}16.03%{transform:translateX(450px)}18.82%{transform:translateX(470px)}23.88%{transform:translateX(470px)}27.30%{opacity:1;transform:translateX(470px)}27.37%,100%{opacity:0;transform:translateX(470px)}}
-    .ml0{animation:mlk0 28.673529411764704s linear infinite}
-    @keyframes mlk0{0%{transform:translateX(0)}12.54%{transform:translateX(0)}13.17%{transform:translateX(6px)}13.59%{transform:translateX(0)}14.29%{transform:translateX(0)}14.92%{transform:translateX(6px)}15.33%{transform:translateX(0)}20.39%{transform:translateX(0)}21.02%{transform:translateX(6px)}21.44%{transform:translateX(0)}22.14%{transform:translateX(0)}22.76%{transform:translateX(6px)}23.18%{transform:translateX(0)}100%{transform:translateX(0)}}
-    .db0{animation:dbk0 28.673529411764704s linear infinite}
-    @keyframes dbk0{0%,27.30%{opacity:0;transform:translate(0,0)}27.37%{opacity:1}28.24%{transform:translate(var(--px),var(--py))}29.11%{opacity:1;transform:translate(calc(var(--px)*1.7),10px)}29.29%,100%{opacity:0;transform:translate(calc(var(--px)*1.7),10px)}}
-    .kax0{animation:kaxk0 28.673529411764704s linear infinite}
-    @keyframes kaxk0{0%,24.51%{transform:translateX(0);opacity:0}24.58%{opacity:1}27.37%{transform:translateX(var(--dx));opacity:1}27.54%,100%{transform:translateX(var(--dx));opacity:0}}
-    .kay0{animation:kayk0 28.673529411764704s linear infinite}
-    @keyframes kayk0{0%,24.58%{transform:translateY(0)}25.97%{transform:translateY(-26px)}27.37%,100%{transform:translateY(var(--fy))}}
-    .kar0{animation:kark0 28.673529411764704s linear infinite}
-    @keyframes kark0{0%,24.58%{transform:rotate(24deg)}27.37%,100%{transform:rotate(-40deg)}}
-    .mo1{animation:mok1 28.673529411764704s linear infinite backwards}
-    @keyframes mok1{0%{transform:translateX(0);opacity:0}29.46%{transform:translateX(0);opacity:0}29.63%{opacity:1}39.10%{transform:translateX(470px)}42.41%{transform:translateX(470px)}45.20%{transform:translateX(480px)}50.26%{transform:translateX(480px)}54.77%{transform:translateX(700px)}58.09%{transform:translateX(700px)}61.51%{opacity:1;transform:translateX(700px)}61.58%,100%{opacity:0;transform:translateX(700px)}}
-    .ml1{animation:mlk1 28.673529411764704s linear infinite}
-    @keyframes mlk1{0%{transform:translateX(0)}40.67%{transform:translateX(0)}41.30%{transform:translateX(6px)}41.72%{transform:translateX(0)}46.77%{transform:translateX(0)}47.40%{transform:translateX(6px)}47.82%{transform:translateX(0)}48.52%{transform:translateX(0)}49.15%{transform:translateX(6px)}49.56%{transform:translateX(0)}56.34%{transform:translateX(0)}56.97%{transform:translateX(6px)}57.39%{transform:translateX(0)}100%{transform:translateX(0)}}
-    .db1{animation:dbk1 28.673529411764704s linear infinite}
-    @keyframes dbk1{0%,61.51%{opacity:0;transform:translate(0,0)}61.58%{opacity:1}62.45%{transform:translate(var(--px),var(--py))}63.32%{opacity:1;transform:translate(calc(var(--px)*1.7),10px)}63.49%,100%{opacity:0;transform:translate(calc(var(--px)*1.7),10px)}}
-    .kax1{animation:kaxk1 28.673529411764704s linear infinite}
-    @keyframes kaxk1{0%,58.72%{transform:translateX(0);opacity:0}58.79%{opacity:1}61.58%{transform:translateX(var(--dx));opacity:1}61.75%,100%{transform:translateX(var(--dx));opacity:0}}
-    .kay1{animation:kayk1 28.673529411764704s linear infinite}
-    @keyframes kayk1{0%,58.79%{transform:translateY(0)}60.18%{transform:translateY(-26px)}61.58%,100%{transform:translateY(var(--fy))}}
-    .kar1{animation:kark1 28.673529411764704s linear infinite}
-    @keyframes kark1{0%,58.79%{transform:rotate(24deg)}61.58%,100%{transform:rotate(-40deg)}}
-    .mo2{animation:mok2 28.673529411764704s linear infinite backwards}
-    @keyframes mok2{0%{transform:translateX(0);opacity:0}63.67%{transform:translateX(0);opacity:0}63.84%{opacity:1}78.03%{transform:translateX(700px)}84.83%{transform:translateX(700px)}87.62%{transform:translateX(710px)}90.93%{transform:translateX(710px)}94.35%{opacity:1;transform:translateX(710px)}94.42%,100%{opacity:0;transform:translateX(710px)}}
-    .ml2{animation:mlk2 28.673529411764704s linear infinite}
-    @keyframes mlk2{0%{transform:translateX(0)}79.60%{transform:translateX(0)}80.23%{transform:translateX(6px)}80.64%{transform:translateX(0)}81.34%{transform:translateX(0)}81.97%{transform:translateX(6px)}82.39%{transform:translateX(0)}83.09%{transform:translateX(0)}83.71%{transform:translateX(6px)}84.13%{transform:translateX(0)}89.19%{transform:translateX(0)}89.82%{transform:translateX(6px)}90.23%{transform:translateX(0)}100%{transform:translateX(0)}}
-    .db2{animation:dbk2 28.673529411764704s linear infinite}
-    @keyframes dbk2{0%,94.35%{opacity:0;transform:translate(0,0)}94.42%{opacity:1}95.29%{transform:translate(var(--px),var(--py))}96.16%{opacity:1;transform:translate(calc(var(--px)*1.7),10px)}96.34%,100%{opacity:0;transform:translate(calc(var(--px)*1.7),10px)}}
-    .kax2{animation:kaxk2 28.673529411764704s linear infinite}
-    @keyframes kaxk2{0%,91.56%{transform:translateX(0);opacity:0}91.63%{opacity:1}94.42%{transform:translateX(var(--dx));opacity:1}94.59%,100%{transform:translateX(var(--dx));opacity:0}}
-    .kay2{animation:kayk2 28.673529411764704s linear infinite}
-    @keyframes kayk2{0%,91.63%{transform:translateY(0)}93.02%{transform:translateY(-26px)}94.42%,100%{transform:translateY(var(--fy))}}
-    .kar2{animation:kark2 28.673529411764704s linear infinite}
-    @keyframes kark2{0%,91.63%{transform:rotate(24deg)}94.42%,100%{transform:rotate(-40deg)}}
-    .fall{animation:fallk 28.673529411764704s linear infinite}
-    @keyframes fallk{0%{transform:translateY(var(--fd));animation-timing-function:cubic-bezier(.45,0,1,1)}3.14%{transform:translateY(0);animation-timing-function:ease-out}3.84%{transform:translateY(-3px);animation-timing-function:ease-in}4.53%,100%{transform:translateY(0)}}
-    .bv0{animation:bvk0 28.673529411764704s linear infinite}
-    @keyframes bvk0{0%{transform:translate(0,0);opacity:1}14.22%{transform:translate(0,0px)}14.29%{transform:translate(2px,0px)}14.81%{transform:translate(-2px,0px)}15.27%{opacity:1}15.33%,100%{opacity:0;transform:translate(0,0px)}}
-    .bv1{animation:bvk1 28.673529411764704s linear infinite}
-    @keyframes bvk1{0%{transform:translate(0,0);opacity:1}12.48%{transform:translate(0,0px)}12.54%{transform:translate(2px,0px)}13.07%{transform:translate(-2px,0px)}13.52%{opacity:1}13.59%,100%{opacity:0;transform:translate(0,0px)}}
-    .bv2{animation:bvk2 28.673529411764704s linear infinite}
-    @keyframes bvk2{0%{transform:translate(0,0);opacity:1}40.60%{transform:translate(0,0px)}40.67%{transform:translate(2px,0px)}41.19%{transform:translate(-2px,0px)}41.65%{opacity:1}41.72%,100%{opacity:0;transform:translate(0,0px)}}
-    .bv3{animation:bvk3 28.673529411764704s linear infinite}
-    @keyframes bvk3{0%{transform:translate(0,0);opacity:1}22.07%{transform:translate(0,0px)}22.14%{transform:translate(2px,0px)}22.66%{transform:translate(-2px,0px)}23.11%{opacity:1}23.18%,100%{opacity:0;transform:translate(0,0px)}}
-    .bv4{animation:bvk4 28.673529411764704s linear infinite}
-    @keyframes bvk4{0%{transform:translate(0,0);opacity:1}20.32%{transform:translate(0,0px)}20.39%{transform:translate(2px,0px)}20.91%{transform:translate(-2px,0px)}21.37%{opacity:1}21.44%,100%{opacity:0;transform:translate(0,0px)}}
-    .bv5{animation:bvk5 28.673529411764704s linear infinite}
-    @keyframes bvk5{0%{transform:translate(0,0);opacity:1}48.45%{transform:translate(0,0px)}48.52%{transform:translate(2px,0px)}49.04%{transform:translate(-2px,0px)}49.49%{opacity:1}49.56%,100%{opacity:0;transform:translate(0,0px)}}
-    .bv6{animation:bvk6 28.673529411764704s linear infinite}
-    @keyframes bvk6{0%{transform:translate(0,0);opacity:1}46.70%{transform:translate(0,0px)}46.77%{transform:translate(2px,0px)}47.30%{transform:translate(-2px,0px)}47.75%{opacity:1}47.82%,100%{opacity:0;transform:translate(0,0px)}}
-    .bv7{animation:bvk7 28.673529411764704s linear infinite}
-    @keyframes bvk7{0%{transform:translate(0,0);opacity:1}83.02%{transform:translate(0,0px)}83.09%{transform:translate(2px,0px)}83.61%{transform:translate(-2px,0px)}84.06%{opacity:1}84.13%,100%{opacity:0;transform:translate(0,0px)}}
-    .bv8{animation:bvk8 28.673529411764704s linear infinite}
-    @keyframes bvk8{0%{transform:translate(0,0);opacity:1}81.27%{transform:translate(0,0px)}81.34%{transform:translate(2px,0px)}81.86%{transform:translate(-2px,0px)}82.32%{opacity:1}82.39%,100%{opacity:0;transform:translate(0,0px)}}
-    .bv9{animation:bvk9 28.673529411764704s linear infinite}
-    @keyframes bvk9{0%{transform:translate(0,0);opacity:1}79.53%{transform:translate(0,0px)}79.60%{transform:translate(2px,0px)}80.12%{transform:translate(-2px,0px)}80.57%{opacity:1}80.64%,100%{opacity:0;transform:translate(0,0px)}}
-    .bv10{animation:bvk10 28.673529411764704s linear infinite}
-    @keyframes bvk10{0%{transform:translate(0,0);opacity:1}56.27%{transform:translate(0,0px)}56.34%{transform:translate(2px,0px)}56.87%{transform:translate(-2px,0px)}57.32%{opacity:1}57.39%,100%{opacity:0;transform:translate(0,0px)}}
-    .bv11{animation:bvk11 28.673529411764704s linear infinite}
-    @keyframes bvk11{0%{transform:translate(0,0);opacity:1}17.61%{opacity:1}17.68%,100%{opacity:0;transform:translate(0,0px)}}
-    .bv12{animation:bvk12 28.673529411764704s linear infinite}
-    @keyframes bvk12{0%{transform:translate(0,0);opacity:1}18.20%{transform:translate(0,0px)}19.07%{transform:translate(0,9px)}100%{transform:translate(0,9px);opacity:1}}
-    .bv13{animation:bvk13 28.673529411764704s linear infinite}
-    @keyframes bvk13{0%{transform:translate(0,0);opacity:1}18.20%{transform:translate(0,0px)}19.07%{transform:translate(0,9px)}59.41%{opacity:1}59.48%,100%{opacity:0;transform:translate(0,9px)}}
-    .bv14{animation:bvk14 28.673529411764704s linear infinite}
-    @keyframes bvk14{0%{transform:translate(0,0);opacity:1}18.20%{transform:translate(0,0px)}19.07%{transform:translate(0,9px)}59.41%{opacity:1}59.48%,100%{opacity:0;transform:translate(0,9px)}}
-    .bv15{animation:bvk15 28.673529411764704s linear infinite}
-    @keyframes bvk15{0%{transform:translate(0,0);opacity:1}18.20%{transform:translate(0,0px)}19.07%{transform:translate(0,9px)}59.41%{opacity:1}59.48%,100%{opacity:0;transform:translate(0,9px)}}
-    .bv16{animation:bvk16 28.673529411764704s linear infinite}
-    @keyframes bvk16{0%{transform:translate(0,0);opacity:1}18.20%{transform:translate(0,0px)}19.07%{transform:translate(0,9px)}60.00%{transform:translate(0,9px)}60.87%{transform:translate(0,36px)}89.12%{transform:translate(0,36px)}89.19%{transform:translate(2px,36px)}89.71%{transform:translate(-2px,36px)}90.17%{opacity:1}90.23%,100%{opacity:0;transform:translate(0,36px)}}
-    .bv17{animation:bvk17 28.673529411764704s linear infinite}
-    @keyframes bvk17{0%{transform:translate(0,0);opacity:1}17.61%{opacity:1}17.68%,100%{opacity:0;transform:translate(0,0px)}}
-    .bv18{animation:bvk18 28.673529411764704s linear infinite}
-    @keyframes bvk18{0%{transform:translate(0,0);opacity:1}17.61%{opacity:1}17.68%,100%{opacity:0;transform:translate(0,0px)}}
-    .bv19{animation:bvk19 28.673529411764704s linear infinite}
-    @keyframes bvk19{0%{transform:translate(0,0);opacity:1}18.20%{transform:translate(0,0px)}19.07%{transform:translate(0,18px)}100%{transform:translate(0,18px);opacity:1}}
-    .bv20{animation:bvk20 28.673529411764704s linear infinite}
-    @keyframes bvk20{0%{transform:translate(0,0);opacity:1}18.20%{transform:translate(0,0px)}19.07%{transform:translate(0,18px)}100%{transform:translate(0,18px);opacity:1}}
-    .bv21{animation:bvk21 28.673529411764704s linear infinite}
-    @keyframes bvk21{0%{transform:translate(0,0);opacity:1}17.61%{opacity:1}17.68%,100%{opacity:0;transform:translate(0,0px)}}
-    .bv22{animation:bvk22 28.673529411764704s linear infinite}
-    @keyframes bvk22{0%{transform:translate(0,0);opacity:1}18.20%{transform:translate(0,0px)}19.07%{transform:translate(0,9px)}100%{transform:translate(0,9px);opacity:1}}
-    .bv23{animation:bvk23 28.673529411764704s linear infinite}
-    @keyframes bvk23{0%{transform:translate(0,0);opacity:1}18.20%{transform:translate(0,0px)}19.07%{transform:translate(0,9px)}100%{transform:translate(0,9px);opacity:1}}
-    .bv24{animation:bvk24 28.673529411764704s linear infinite}
-    @keyframes bvk24{0%{transform:translate(0,0);opacity:1}18.20%{transform:translate(0,0px)}19.07%{transform:translate(0,9px)}51.14%{opacity:1}51.21%,100%{opacity:0;transform:translate(0,9px)}}
-    .bv25{animation:bvk25 28.673529411764704s linear infinite}
-    @keyframes bvk25{0%{transform:translate(0,0);opacity:1}18.20%{transform:translate(0,0px)}19.07%{transform:translate(0,9px)}51.14%{opacity:1}51.21%,100%{opacity:0;transform:translate(0,9px)}}
-    .bv26{animation:bvk26 28.673529411764704s linear infinite}
-    @keyframes bvk26{0%{transform:translate(0,0);opacity:1}67.98%{opacity:1}68.05%,100%{opacity:0;transform:translate(0,0px)}}
-    .bv27{animation:bvk27 28.673529411764704s linear infinite}
-    @keyframes bvk27{0%{transform:translate(0,0);opacity:1}68.57%{transform:translate(0,0px)}69.44%{transform:translate(0,9px)}100%{transform:translate(0,9px);opacity:1}}
-    .bv28{animation:bvk28 28.673529411764704s linear infinite}
-    @keyframes bvk28{0%{transform:translate(0,0);opacity:1}68.57%{transform:translate(0,0px)}69.44%{transform:translate(0,9px)}84.67%{opacity:1}84.74%,100%{opacity:0;transform:translate(0,9px)}}
-    .bv29{animation:bvk29 28.673529411764704s linear infinite}
-    @keyframes bvk29{0%{transform:translate(0,0);opacity:1}51.14%{opacity:1}51.21%,100%{opacity:0;transform:translate(0,0px)}}
-    .bv30{animation:bvk30 28.673529411764704s linear infinite}
-    @keyframes bvk30{0%{transform:translate(0,0);opacity:1}51.73%{transform:translate(0,0px)}52.60%{transform:translate(0,9px)}68.57%{transform:translate(0,9px)}69.44%{transform:translate(0,18px)}84.67%{opacity:1}84.74%,100%{opacity:0;transform:translate(0,18px)}}
-    .bv31{animation:bvk31 28.673529411764704s linear infinite}
-    @keyframes bvk31{0%{transform:translate(0,0);opacity:1}51.73%{transform:translate(0,0px)}52.60%{transform:translate(0,9px)}68.57%{transform:translate(0,9px)}69.44%{transform:translate(0,18px)}84.67%{opacity:1}84.74%,100%{opacity:0;transform:translate(0,18px)}}
-    .bv32{animation:bvk32 28.673529411764704s linear infinite}
-    @keyframes bvk32{0%{transform:translate(0,0);opacity:1}51.73%{transform:translate(0,0px)}52.60%{transform:translate(0,9px)}68.57%{transform:translate(0,9px)}69.44%{transform:translate(0,18px)}85.26%{transform:translate(0,18px)}86.13%{transform:translate(0,45px)}100%{transform:translate(0,45px);opacity:1}}
-    .bv33{animation:bvk33 28.673529411764704s linear infinite}
-    @keyframes bvk33{0%{transform:translate(0,0);opacity:1}67.98%{opacity:1}68.05%,100%{opacity:0;transform:translate(0,0px)}}
-    .bv34{animation:bvk34 28.673529411764704s linear infinite}
-    @keyframes bvk34{0%{transform:translate(0,0);opacity:1}67.98%{opacity:1}68.05%,100%{opacity:0;transform:translate(0,0px)}}
-    .bv35{animation:bvk35 28.673529411764704s linear infinite}
-    @keyframes bvk35{0%{transform:translate(0,0);opacity:1}68.57%{transform:translate(0,0px)}69.44%{transform:translate(0,9px)}100%{transform:translate(0,9px);opacity:1}}
-    .bv36{animation:bvk36 28.673529411764704s linear infinite}
-    @keyframes bvk36{0%{transform:translate(0,0);opacity:1}68.57%{transform:translate(0,0px)}69.44%{transform:translate(0,9px)}76.40%{opacity:1}76.47%,100%{opacity:0;transform:translate(0,9px)}}
-    .bv37{animation:bvk37 28.673529411764704s linear infinite}
-    @keyframes bvk37{0%{transform:translate(0,0);opacity:1}34.60%{opacity:1}34.67%,100%{opacity:0;transform:translate(0,0px)}}
-    .bv38{animation:bvk38 28.673529411764704s linear infinite}
-    @keyframes bvk38{0%{transform:translate(0,0);opacity:1}35.19%{transform:translate(0,0px)}36.06%{transform:translate(0,9px)}68.57%{transform:translate(0,9px)}69.44%{transform:translate(0,18px)}76.40%{opacity:1}76.47%,100%{opacity:0;transform:translate(0,18px)}}
-    .bv39{animation:bvk39 28.673529411764704s linear infinite}
-    @keyframes bvk39{0%{transform:translate(0,0);opacity:1}35.19%{transform:translate(0,0px)}36.06%{transform:translate(0,9px)}68.57%{transform:translate(0,9px)}69.44%{transform:translate(0,18px)}76.40%{opacity:1}76.47%,100%{opacity:0;transform:translate(0,18px)}}
-    .bv40{animation:bvk40 28.673529411764704s linear infinite}
-    @keyframes bvk40{0%{transform:translate(0,0);opacity:1}34.60%{opacity:1}34.67%,100%{opacity:0;transform:translate(0,0px)}}
-    .bv41{animation:bvk41 28.673529411764704s linear infinite}
-    @keyframes bvk41{0%{transform:translate(0,0);opacity:1}34.60%{opacity:1}34.67%,100%{opacity:0;transform:translate(0,0px)}}
-    .bv42{animation:bvk42 28.673529411764704s linear infinite}
-    @keyframes bvk42{0%{transform:translate(0,0);opacity:1}34.60%{opacity:1}34.67%,100%{opacity:0;transform:translate(0,0px)}}
-    .bv43{animation:bvk43 28.673529411764704s linear infinite}
-    @keyframes bvk43{0%{transform:translate(0,0);opacity:1}35.19%{transform:translate(0,0px)}36.06%{transform:translate(0,27px)}43.02%{opacity:1}43.09%,100%{opacity:0;transform:translate(0,27px)}}
-    .bv44{animation:bvk44 28.673529411764704s linear infinite}
-    @keyframes bvk44{0%{transform:translate(0,0);opacity:1}35.19%{transform:translate(0,0px)}36.06%{transform:translate(0,27px)}43.61%{transform:translate(0,27px)}44.48%{transform:translate(0,36px)}76.40%{opacity:1}76.47%,100%{opacity:0;transform:translate(0,36px)}}
-    .bv45{animation:bvk45 28.673529411764704s linear infinite}
-    @keyframes bvk45{0%{transform:translate(0,0);opacity:1}26.33%{opacity:1}26.40%,100%{opacity:0;transform:translate(0,0px)}}
-    .bv46{animation:bvk46 28.673529411764704s linear infinite}
-    @keyframes bvk46{0%{transform:translate(0,0);opacity:1}26.92%{transform:translate(0,0px)}27.79%{transform:translate(0,9px)}43.02%{opacity:1}43.09%,100%{opacity:0;transform:translate(0,9px)}}
-    .bv47{animation:bvk47 28.673529411764704s linear infinite}
-    @keyframes bvk47{0%{transform:translate(0,0);opacity:1}26.92%{transform:translate(0,0px)}27.79%{transform:translate(0,9px)}43.02%{opacity:1}43.09%,100%{opacity:0;transform:translate(0,9px)}}
-    .bv48{animation:bvk48 28.673529411764704s linear infinite}
-    @keyframes bvk48{0%{transform:translate(0,0);opacity:1}26.33%{opacity:1}26.40%,100%{opacity:0;transform:translate(0,0px)}}
-    .bv49{animation:bvk49 28.673529411764704s linear infinite}
-    @keyframes bvk49{0%{transform:translate(0,0);opacity:1}26.33%{opacity:1}26.40%,100%{opacity:0;transform:translate(0,0px)}}
-    .bv50{animation:bvk50 28.673529411764704s linear infinite}
-    @keyframes bvk50{0%{transform:translate(0,0);opacity:1}26.33%{opacity:1}26.40%,100%{opacity:0;transform:translate(0,0px)}}
-    .bv51{animation:bvk51 28.673529411764704s linear infinite}
-    @keyframes bvk51{0%{transform:translate(0,0);opacity:1}26.33%{opacity:1}26.40%,100%{opacity:0;transform:translate(0,0px)}}
-    .bv52{animation:bvk52 28.673529411764704s linear infinite}
-    @keyframes bvk52{0%{transform:translate(0,0);opacity:1}26.92%{transform:translate(0,0px)}27.79%{transform:translate(0,9px)}93.34%{opacity:1}93.41%,100%{opacity:0;transform:translate(0,9px)}}
-    .bv53{animation:bvk53 28.673529411764704s linear infinite}
-    @keyframes bvk53{0%{transform:translate(0,0);opacity:1}26.92%{transform:translate(0,0px)}27.79%{transform:translate(0,9px)}93.34%{opacity:1}93.41%,100%{opacity:0;transform:translate(0,9px)}}
-    .bv54{animation:bvk54 28.673529411764704s linear infinite}
-    @keyframes bvk54{0%{transform:translate(0,0);opacity:1}26.92%{transform:translate(0,0px)}27.79%{transform:translate(0,9px)}93.34%{opacity:1}93.41%,100%{opacity:0;transform:translate(0,9px)}}
-    .fk0{animation:fkk0 28.673529411764704s linear infinite}
-    @keyframes fkk0{0%,13.52%{opacity:0;transform:translate(0,0)}13.59%{opacity:1}14.64%{transform:translate(var(--fx),var(--fy2))}16.03%,100%{opacity:0;transform:translate(calc(var(--fx)*1.7),10px)}}
-    .fk1{animation:fkk1 28.673529411764704s linear infinite}
-    @keyframes fkk1{0%,15.27%{opacity:0;transform:translate(0,0)}15.33%{opacity:1}16.38%{transform:translate(var(--fx),var(--fy2))}17.78%,100%{opacity:0;transform:translate(calc(var(--fx)*1.7),10px)}}
-    .fk2{animation:fkk2 28.673529411764704s linear infinite}
-    @keyframes fkk2{0%,21.37%{opacity:0;transform:translate(0,0)}21.44%{opacity:1}22.48%{transform:translate(var(--fx),var(--fy2))}23.88%,100%{opacity:0;transform:translate(calc(var(--fx)*1.7),10px)}}
-    .fk3{animation:fkk3 28.673529411764704s linear infinite}
-    @keyframes fkk3{0%,23.11%{opacity:0;transform:translate(0,0)}23.18%{opacity:1}24.23%{transform:translate(var(--fx),var(--fy2))}25.62%,100%{opacity:0;transform:translate(calc(var(--fx)*1.7),10px)}}
-    .fk4{animation:fkk4 28.673529411764704s linear infinite}
-    @keyframes fkk4{0%,41.65%{opacity:0;transform:translate(0,0)}41.72%{opacity:1}42.76%{transform:translate(var(--fx),var(--fy2))}44.16%,100%{opacity:0;transform:translate(calc(var(--fx)*1.7),10px)}}
-    .fk5{animation:fkk5 28.673529411764704s linear infinite}
-    @keyframes fkk5{0%,47.75%{opacity:0;transform:translate(0,0)}47.82%{opacity:1}48.87%{transform:translate(var(--fx),var(--fy2))}50.26%,100%{opacity:0;transform:translate(calc(var(--fx)*1.7),10px)}}
-    .fk6{animation:fkk6 28.673529411764704s linear infinite}
-    @keyframes fkk6{0%,49.49%{opacity:0;transform:translate(0,0)}49.56%{opacity:1}50.61%{transform:translate(var(--fx),var(--fy2))}52.01%,100%{opacity:0;transform:translate(calc(var(--fx)*1.7),10px)}}
-    .fk7{animation:fkk7 28.673529411764704s linear infinite}
-    @keyframes fkk7{0%,57.32%{opacity:0;transform:translate(0,0)}57.39%{opacity:1}58.44%{transform:translate(var(--fx),var(--fy2))}59.83%,100%{opacity:0;transform:translate(calc(var(--fx)*1.7),10px)}}
-    .fk8{animation:fkk8 28.673529411764704s linear infinite}
-    @keyframes fkk8{0%,80.57%{opacity:0;transform:translate(0,0)}80.64%{opacity:1}81.69%{transform:translate(var(--fx),var(--fy2))}83.09%,100%{opacity:0;transform:translate(calc(var(--fx)*1.7),10px)}}
-    .fk9{animation:fkk9 28.673529411764704s linear infinite}
-    @keyframes fkk9{0%,82.32%{opacity:0;transform:translate(0,0)}82.39%{opacity:1}83.43%{transform:translate(var(--fx),var(--fy2))}84.83%,100%{opacity:0;transform:translate(calc(var(--fx)*1.7),10px)}}
-    .fk10{animation:fkk10 28.673529411764704s linear infinite}
-    @keyframes fkk10{0%,84.06%{opacity:0;transform:translate(0,0)}84.13%{opacity:1}85.18%{transform:translate(var(--fx),var(--fy2))}86.57%,100%{opacity:0;transform:translate(calc(var(--fx)*1.7),10px)}}
-    .fk11{animation:fkk11 28.673529411764704s linear infinite}
-    @keyframes fkk11{0%,90.17%{opacity:0;transform:translate(0,0)}90.23%{opacity:1}91.28%{transform:translate(var(--fx),var(--fy2))}92.68%,100%{opacity:0;transform:translate(calc(var(--fx)*1.7),10px)}}
-    .msx0{animation:msxk0 28.673529411764704s linear infinite}
-    @keyframes msxk0{0%,10.39%{transform:translateX(0);opacity:0}10.46%{opacity:1}17.68%{transform:translateX(678px);opacity:1}17.78%,100%{transform:translateX(678px);opacity:0}}
-    .msy0{animation:msyk0 28.673529411764704s linear infinite}
-    @keyframes msyk0{0%,10.46%{transform:translateY(0)}14.07%{transform:translateY(-120px)}17.68%,100%{transform:translateY(18px)}}
-    .msr0{animation:msrk0 28.673529411764704s linear infinite}
-    @keyframes msrk0{0%,10.46%{transform:rotate(0deg)}17.68%,100%{transform:rotate(220deg)}}
-    .msx1{animation:msxk1 28.673529411764704s linear infinite}
-    @keyframes msxk1{0%,18.76%{transform:translateX(0);opacity:0}18.83%{opacity:1}26.40%{transform:translateX(748px);opacity:1}26.50%,100%{transform:translateX(748px);opacity:0}}
-    .msy1{animation:msyk1 28.673529411764704s linear infinite}
-    @keyframes msyk1{0%,18.83%{transform:translateY(0)}22.61%{transform:translateY(-120px)}26.40%,100%{transform:translateY(9px)}}
-    .msr1{animation:msrk1 28.673529411764704s linear infinite}
-    @keyframes msrk1{0%,18.83%{transform:rotate(0deg)}26.40%,100%{transform:rotate(220deg)}}
-    .msx2{animation:msxk2 28.673529411764704s linear infinite}
-    @keyframes msxk2{0%,27.13%{transform:translateX(0);opacity:0}27.20%{opacity:1}34.67%{transform:translateX(728px);opacity:1}34.77%,100%{transform:translateX(728px);opacity:0}}
-    .msy2{animation:msyk2 28.673529411764704s linear infinite}
-    @keyframes msyk2{0%,27.20%{transform:translateY(0)}30.93%{transform:translateY(-120px)}34.67%,100%{transform:translateY(-9px)}}
-    .msr2{animation:msrk2 28.673529411764704s linear infinite}
-    @keyframes msrk2{0%,27.20%{transform:rotate(0deg)}34.67%,100%{transform:rotate(220deg)}}
-    .msx3{animation:msxk3 28.673529411764704s linear infinite}
-    @keyframes msxk3{0%,35.50%{transform:translateX(0);opacity:0}35.57%{opacity:1}43.09%{transform:translateX(738px);opacity:1}43.19%,100%{transform:translateX(738px);opacity:0}}
-    .msy3{animation:msyk3 28.673529411764704s linear infinite}
-    @keyframes msyk3{0%,35.57%{transform:translateY(0)}39.33%{transform:translateY(-120px)}43.09%,100%{transform:translateY(0px)}}
-    .msr3{animation:msrk3 28.673529411764704s linear infinite}
-    @keyframes msrk3{0%,35.57%{transform:rotate(0deg)}43.09%,100%{transform:rotate(220deg)}}
-    .msx4{animation:msxk4 28.673529411764704s linear infinite}
-    @keyframes msxk4{0%,43.87%{transform:translateX(0);opacity:0}43.94%{opacity:1}51.21%{transform:translateX(688px);opacity:1}51.31%,100%{transform:translateX(688px);opacity:0}}
-    .msy4{animation:msyk4 28.673529411764704s linear infinite}
-    @keyframes msyk4{0%,43.94%{transform:translateY(0)}47.57%{transform:translateY(-120px)}51.21%,100%{transform:translateY(-9px)}}
-    .msr4{animation:msrk4 28.673529411764704s linear infinite}
-    @keyframes msrk4{0%,43.94%{transform:rotate(0deg)}51.21%,100%{transform:rotate(220deg)}}
-    .msx5{animation:msxk5 28.673529411764704s linear infinite}
-    @keyframes msxk5{0%,52.24%{transform:translateX(0);opacity:0}52.31%{opacity:1}59.48%{transform:translateX(668px);opacity:1}59.58%,100%{transform:translateX(668px);opacity:0}}
-    .msy5{animation:msyk5 28.673529411764704s linear infinite}
-    @keyframes msyk5{0%,52.31%{transform:translateY(0)}55.90%{transform:translateY(-120px)}59.48%,100%{transform:translateY(0px)}}
-    .msr5{animation:msrk5 28.673529411764704s linear infinite}
-    @keyframes msrk5{0%,52.31%{transform:rotate(0deg)}59.48%,100%{transform:rotate(220deg)}}
-    .msx6{animation:msxk6 28.673529411764704s linear infinite}
-    @keyframes msxk6{0%,60.61%{transform:translateX(0);opacity:0}60.68%{opacity:1}68.05%{transform:translateX(708px);opacity:1}68.15%,100%{transform:translateX(708px);opacity:0}}
-    .msy6{animation:msyk6 28.673529411764704s linear infinite}
-    @keyframes msyk6{0%,60.68%{transform:translateY(0)}64.36%{transform:translateY(-120px)}68.05%,100%{transform:translateY(18px)}}
-    .msr6{animation:msrk6 28.673529411764704s linear infinite}
-    @keyframes msrk6{0%,60.68%{transform:rotate(0deg)}68.05%,100%{transform:rotate(220deg)}}
-    .msx7{animation:msxk7 28.673529411764704s linear infinite}
-    @keyframes msxk7{0%,68.98%{transform:translateX(0);opacity:0}69.05%{opacity:1}76.47%{transform:translateX(718px);opacity:1}76.57%,100%{transform:translateX(718px);opacity:0}}
-    .msy7{animation:msyk7 28.673529411764704s linear infinite}
-    @keyframes msyk7{0%,69.05%{transform:translateY(0)}72.76%{transform:translateY(-120px)}76.47%,100%{transform:translateY(0px)}}
-    .msr7{animation:msrk7 28.673529411764704s linear infinite}
-    @keyframes msrk7{0%,69.05%{transform:rotate(0deg)}76.47%,100%{transform:rotate(220deg)}}
-    .msx8{animation:msxk8 28.673529411764704s linear infinite}
-    @keyframes msxk8{0%,77.35%{transform:translateX(0);opacity:0}77.42%{opacity:1}84.74%{transform:translateX(698px);opacity:1}84.84%,100%{transform:translateX(698px);opacity:0}}
-    .msy8{animation:msyk8 28.673529411764704s linear infinite}
-    @keyframes msyk8{0%,77.42%{transform:translateY(0)}81.08%{transform:translateY(-120px)}84.74%,100%{transform:translateY(0px)}}
-    .msr8{animation:msrk8 28.673529411764704s linear infinite}
-    @keyframes msrk8{0%,77.42%{transform:rotate(0deg)}84.74%,100%{transform:rotate(220deg)}}
-    .msx9{animation:msxk9 28.673529411764704s linear infinite}
-    @keyframes msxk9{0%,85.72%{transform:translateX(0);opacity:0}85.79%{opacity:1}93.41%{transform:translateX(758px);opacity:1}93.51%,100%{transform:translateX(758px);opacity:0}}
-    .msy9{animation:msyk9 28.673529411764704s linear infinite}
-    @keyframes msyk9{0%,85.79%{transform:translateY(0)}89.60%{transform:translateY(-120px)}93.41%,100%{transform:translateY(0px)}}
-    .msr9{animation:msrk9 28.673529411764704s linear infinite}
-    @keyframes msrk9{0%,85.79%{transform:rotate(0deg)}93.41%,100%{transform:rotate(220deg)}}
-    .ef0{animation:efk0 28.673529411764704s linear infinite}
-    @keyframes efk0{0%,17.61%{opacity:0;transform:scale(0.3)}17.68%{opacity:1;transform:scale(1)}18.30%,100%{opacity:0;transform:scale(1.3)}}
-    .ep0{animation:epk0 28.673529411764704s linear infinite}
-    @keyframes epk0{0%,17.61%{opacity:0;transform:translate(0,0)}17.68%{opacity:1}18.72%{transform:translate(var(--px),var(--py))}19.59%{opacity:1;transform:translate(calc(var(--px)*1.5),12px)}19.77%,100%{opacity:0;transform:translate(calc(var(--px)*1.5),12px)}}
-    .ef1{animation:efk1 28.673529411764704s linear infinite}
-    @keyframes efk1{0%,26.33%{opacity:0;transform:scale(0.3)}26.40%{opacity:1;transform:scale(1)}27.02%,100%{opacity:0;transform:scale(1.3)}}
-    .ep1{animation:epk1 28.673529411764704s linear infinite}
-    @keyframes epk1{0%,26.33%{opacity:0;transform:translate(0,0)}26.40%{opacity:1}27.44%{transform:translate(var(--px),var(--py))}28.31%{opacity:1;transform:translate(calc(var(--px)*1.5),12px)}28.49%,100%{opacity:0;transform:translate(calc(var(--px)*1.5),12px)}}
-    .ef2{animation:efk2 28.673529411764704s linear infinite}
-    @keyframes efk2{0%,34.60%{opacity:0;transform:scale(0.3)}34.67%{opacity:1;transform:scale(1)}35.29%,100%{opacity:0;transform:scale(1.3)}}
-    .ep2{animation:epk2 28.673529411764704s linear infinite}
-    @keyframes epk2{0%,34.60%{opacity:0;transform:translate(0,0)}34.67%{opacity:1}35.71%{transform:translate(var(--px),var(--py))}36.58%{opacity:1;transform:translate(calc(var(--px)*1.5),12px)}36.76%,100%{opacity:0;transform:translate(calc(var(--px)*1.5),12px)}}
-    .ef3{animation:efk3 28.673529411764704s linear infinite}
-    @keyframes efk3{0%,43.02%{opacity:0;transform:scale(0.3)}43.09%{opacity:1;transform:scale(1)}43.71%,100%{opacity:0;transform:scale(1.3)}}
-    .ep3{animation:epk3 28.673529411764704s linear infinite}
-    @keyframes epk3{0%,43.02%{opacity:0;transform:translate(0,0)}43.09%{opacity:1}44.13%{transform:translate(var(--px),var(--py))}45.00%{opacity:1;transform:translate(calc(var(--px)*1.5),12px)}45.18%,100%{opacity:0;transform:translate(calc(var(--px)*1.5),12px)}}
-    .ef4{animation:efk4 28.673529411764704s linear infinite}
-    @keyframes efk4{0%,51.14%{opacity:0;transform:scale(0.3)}51.21%{opacity:1;transform:scale(1)}51.83%,100%{opacity:0;transform:scale(1.3)}}
-    .ep4{animation:epk4 28.673529411764704s linear infinite}
-    @keyframes epk4{0%,51.14%{opacity:0;transform:translate(0,0)}51.21%{opacity:1}52.25%{transform:translate(var(--px),var(--py))}53.13%{opacity:1;transform:translate(calc(var(--px)*1.5),12px)}53.30%,100%{opacity:0;transform:translate(calc(var(--px)*1.5),12px)}}
-    .ef5{animation:efk5 28.673529411764704s linear infinite}
-    @keyframes efk5{0%,59.41%{opacity:0;transform:scale(0.3)}59.48%{opacity:1;transform:scale(1)}60.11%,100%{opacity:0;transform:scale(1.3)}}
-    .ep5{animation:epk5 28.673529411764704s linear infinite}
-    @keyframes epk5{0%,59.41%{opacity:0;transform:translate(0,0)}59.48%{opacity:1}60.52%{transform:translate(var(--px),var(--py))}61.40%{opacity:1;transform:translate(calc(var(--px)*1.5),12px)}61.57%,100%{opacity:0;transform:translate(calc(var(--px)*1.5),12px)}}
-    .ef6{animation:efk6 28.673529411764704s linear infinite}
-    @keyframes efk6{0%,67.98%{opacity:0;transform:scale(0.3)}68.05%{opacity:1;transform:scale(1)}68.67%,100%{opacity:0;transform:scale(1.3)}}
-    .ep6{animation:epk6 28.673529411764704s linear infinite}
-    @keyframes epk6{0%,67.98%{opacity:0;transform:translate(0,0)}68.05%{opacity:1}69.09%{transform:translate(var(--px),var(--py))}69.96%{opacity:1;transform:translate(calc(var(--px)*1.5),12px)}70.14%,100%{opacity:0;transform:translate(calc(var(--px)*1.5),12px)}}
-    .ef7{animation:efk7 28.673529411764704s linear infinite}
-    @keyframes efk7{0%,76.40%{opacity:0;transform:scale(0.3)}76.47%{opacity:1;transform:scale(1)}77.09%,100%{opacity:0;transform:scale(1.3)}}
-    .ep7{animation:epk7 28.673529411764704s linear infinite}
-    @keyframes epk7{0%,76.40%{opacity:0;transform:translate(0,0)}76.47%{opacity:1}77.51%{transform:translate(var(--px),var(--py))}78.38%{opacity:1;transform:translate(calc(var(--px)*1.5),12px)}78.56%,100%{opacity:0;transform:translate(calc(var(--px)*1.5),12px)}}
-    .ef8{animation:efk8 28.673529411764704s linear infinite}
-    @keyframes efk8{0%,84.67%{opacity:0;transform:scale(0.3)}84.74%{opacity:1;transform:scale(1)}85.36%,100%{opacity:0;transform:scale(1.3)}}
-    .ep8{animation:epk8 28.673529411764704s linear infinite}
-    @keyframes epk8{0%,84.67%{opacity:0;transform:translate(0,0)}84.74%{opacity:1}85.78%{transform:translate(var(--px),var(--py))}86.66%{opacity:1;transform:translate(calc(var(--px)*1.5),12px)}86.83%,100%{opacity:0;transform:translate(calc(var(--px)*1.5),12px)}}
-    .ef9{animation:efk9 28.673529411764704s linear infinite}
-    @keyframes efk9{0%,93.34%{opacity:0;transform:scale(0.3)}93.41%{opacity:1;transform:scale(1)}94.03%,100%{opacity:0;transform:scale(1.3)}}
-    .ep9{animation:epk9 28.673529411764704s linear infinite}
-    @keyframes epk9{0%,93.34%{opacity:0;transform:translate(0,0)}93.41%{opacity:1}94.45%{transform:translate(var(--px),var(--py))}95.32%{opacity:1;transform:translate(calc(var(--px)*1.5),12px)}95.50%,100%{opacity:0;transform:translate(calc(var(--px)*1.5),12px)}}
+    .mo0{animation:mok0 31.39411764705882s linear infinite backwards}
+    @keyframes mok0{0%{transform:translateX(0);opacity:0}1.59%{transform:translateX(0);opacity:0}1.75%{opacity:1}10.02%{transform:translateX(450px)}14.64%{transform:translateX(450px)}17.19%{transform:translateX(480px)}20.22%{transform:translateX(480px)}24.34%{transform:translateX(700px)}27.37%{transform:translateX(700px)}30.49%{opacity:1;transform:translateX(700px)}30.55%,100%{opacity:0;transform:translateX(700px)}}
+    .ml0{animation:mlk0 31.39411764705882s linear infinite}
+    @keyframes mlk0{0%{transform:translateX(0)}11.46%{transform:translateX(0)}12.03%{transform:translateX(6px)}12.41%{transform:translateX(0)}13.05%{transform:translateX(0)}13.62%{transform:translateX(6px)}14.01%{transform:translateX(0)}18.62%{transform:translateX(0)}19.20%{transform:translateX(6px)}19.58%{transform:translateX(0)}25.77%{transform:translateX(0)}26.35%{transform:translateX(6px)}26.73%{transform:translateX(0)}100%{transform:translateX(0)}}
+    .db0{animation:dbk0 31.39411764705882s linear infinite}
+    @keyframes dbk0{0%,30.49%{opacity:0;transform:translate(0,0)}30.55%{opacity:1}31.35%{transform:translate(var(--px),var(--py))}32.14%{opacity:1;transform:translate(calc(var(--px)*1.7),10px)}32.30%,100%{opacity:0;transform:translate(calc(var(--px)*1.7),10px)}}
+    .kax0{animation:kaxk0 31.39411764705882s linear infinite}
+    @keyframes kaxk0{0%,27.94%{transform:translateX(0);opacity:0}28.00%{opacity:1}30.55%{transform:translateX(var(--dx));opacity:1}30.71%,100%{transform:translateX(var(--dx));opacity:0}}
+    .kay0{animation:kayk0 31.39411764705882s linear infinite}
+    @keyframes kayk0{0%,28.00%{transform:translateY(0)}29.28%{transform:translateY(-26px)}30.55%,100%{transform:translateY(var(--fy))}}
+    .kar0{animation:kark0 31.39411764705882s linear infinite}
+    @keyframes kark0{0%,28.00%{transform:rotate(24deg)}30.55%,100%{transform:rotate(-40deg)}}
+    .mo1{animation:mok1 31.39411764705882s linear infinite backwards}
+    @keyframes mok1{0%{transform:translateX(0);opacity:0}32.46%{transform:translateX(0);opacity:0}32.62%{opacity:1}45.58%{transform:translateX(700px)}51.79%{transform:translateX(700px)}54.34%{transform:translateX(710px)}57.36%{transform:translateX(710px)}60.49%{opacity:1;transform:translateX(710px)}60.55%,100%{opacity:0;transform:translateX(710px)}}
+    .ml1{animation:mlk1 31.39411764705882s linear infinite}
+    @keyframes mlk1{0%{transform:translateX(0)}47.01%{transform:translateX(0)}47.58%{transform:translateX(6px)}47.97%{transform:translateX(0)}48.60%{transform:translateX(0)}49.18%{transform:translateX(6px)}49.56%{transform:translateX(0)}50.20%{transform:translateX(0)}50.77%{transform:translateX(6px)}51.15%{transform:translateX(0)}55.77%{transform:translateX(0)}56.34%{transform:translateX(6px)}56.73%{transform:translateX(0)}100%{transform:translateX(0)}}
+    .db1{animation:dbk1 31.39411764705882s linear infinite}
+    @keyframes dbk1{0%,60.49%{opacity:0;transform:translate(0,0)}60.55%{opacity:1}61.35%{transform:translate(var(--px),var(--py))}62.14%{opacity:1;transform:translate(calc(var(--px)*1.7),10px)}62.30%,100%{opacity:0;transform:translate(calc(var(--px)*1.7),10px)}}
+    .kax1{animation:kaxk1 31.39411764705882s linear infinite}
+    @keyframes kaxk1{0%,57.94%{transform:translateX(0);opacity:0}58.00%{opacity:1}60.55%{transform:translateX(var(--dx));opacity:1}60.71%,100%{transform:translateX(var(--dx));opacity:0}}
+    .kay1{animation:kayk1 31.39411764705882s linear infinite}
+    @keyframes kayk1{0%,58.00%{transform:translateY(0)}59.27%{transform:translateY(-26px)}60.55%,100%{transform:translateY(var(--fy))}}
+    .kar1{animation:kark1 31.39411764705882s linear infinite}
+    @keyframes kark1{0%,58.00%{transform:rotate(24deg)}60.55%,100%{transform:rotate(-40deg)}}
+    .mo2{animation:mok2 31.39411764705882s linear infinite backwards}
+    @keyframes mok2{0%{transform:translateX(0);opacity:0}62.46%{transform:translateX(0);opacity:0}62.62%{opacity:1}75.95%{transform:translateX(720px)}80.57%{transform:translateX(720px)}83.12%{transform:translateX(740px)}86.14%{transform:translateX(740px)}88.69%{transform:translateX(760px)}91.72%{transform:translateX(760px)}94.84%{opacity:1;transform:translateX(760px)}94.90%,100%{opacity:0;transform:translateX(760px)}}
+    .ml2{animation:mlk2 31.39411764705882s linear infinite}
+    @keyframes mlk2{0%{transform:translateX(0)}77.38%{transform:translateX(0)}77.96%{transform:translateX(6px)}78.34%{transform:translateX(0)}78.98%{transform:translateX(0)}79.55%{transform:translateX(6px)}79.93%{transform:translateX(0)}84.55%{transform:translateX(0)}85.12%{transform:translateX(6px)}85.51%{transform:translateX(0)}90.13%{transform:translateX(0)}90.70%{transform:translateX(6px)}91.08%{transform:translateX(0)}100%{transform:translateX(0)}}
+    .db2{animation:dbk2 31.39411764705882s linear infinite}
+    @keyframes dbk2{0%,94.84%{opacity:0;transform:translate(0,0)}94.90%{opacity:1}95.70%{transform:translate(var(--px),var(--py))}96.50%{opacity:1;transform:translate(calc(var(--px)*1.7),10px)}96.66%,100%{opacity:0;transform:translate(calc(var(--px)*1.7),10px)}}
+    .kax2{animation:kaxk2 31.39411764705882s linear infinite}
+    @keyframes kaxk2{0%,92.29%{transform:translateX(0);opacity:0}92.36%{opacity:1}94.90%{transform:translateX(var(--dx));opacity:1}95.06%,100%{transform:translateX(var(--dx));opacity:0}}
+    .kay2{animation:kayk2 31.39411764705882s linear infinite}
+    @keyframes kayk2{0%,92.36%{transform:translateY(0)}93.63%{transform:translateY(-26px)}94.90%,100%{transform:translateY(var(--fy))}}
+    .kar2{animation:kark2 31.39411764705882s linear infinite}
+    @keyframes kark2{0%,92.36%{transform:rotate(24deg)}94.90%,100%{transform:rotate(-40deg)}}
+    .fall{animation:fallk 31.39411764705882s linear infinite}
+    @keyframes fallk{0%{transform:translateY(var(--fd));animation-timing-function:cubic-bezier(.45,0,1,1)}2.87%{transform:translateY(0);animation-timing-function:ease-out}3.50%{transform:translateY(-3px);animation-timing-function:ease-in}4.14%,100%{transform:translateY(0)}}
+    .bv0{animation:bvk0 31.39411764705882s linear infinite}
+    @keyframes bvk0{0%{transform:translate(0,0);opacity:1}12.99%{transform:translate(0,0px)}13.05%{transform:translate(2px,0px)}13.53%{transform:translate(-2px,0px)}13.94%{opacity:1}14.01%,100%{opacity:0;transform:translate(0,0px)}}
+    .bv1{animation:bvk1 31.39411764705882s linear infinite}
+    @keyframes bvk1{0%{transform:translate(0,0);opacity:1}11.39%{transform:translate(0,0px)}11.46%{transform:translate(2px,0px)}11.94%{transform:translate(-2px,0px)}12.35%{opacity:1}12.41%,100%{opacity:0;transform:translate(0,0px)}}
+    .bv2{animation:bvk2 31.39411764705882s linear infinite}
+    @keyframes bvk2{0%{transform:translate(0,0);opacity:1}14.94%{opacity:1}15.01%,100%{opacity:0;transform:translate(0,0px)}}
+    .bv3{animation:bvk3 31.39411764705882s linear infinite}
+    @keyframes bvk3{0%{transform:translate(0,0);opacity:1}14.94%{opacity:1}15.01%,100%{opacity:0;transform:translate(0,0px)}}
+    .bv4{animation:bvk4 31.39411764705882s linear infinite}
+    @keyframes bvk4{0%{transform:translate(0,0);opacity:1}14.94%{opacity:1}15.01%,100%{opacity:0;transform:translate(0,0px)}}
+    .bv5{animation:bvk5 31.39411764705882s linear infinite}
+    @keyframes bvk5{0%{transform:translate(0,0);opacity:1}18.56%{transform:translate(0,0px)}18.62%{transform:translate(2px,0px)}19.10%{transform:translate(-2px,0px)}19.52%{opacity:1}19.58%,100%{opacity:0;transform:translate(0,0px)}}
+    .bv6{animation:bvk6 31.39411764705882s linear infinite}
+    @keyframes bvk6{0%{transform:translate(0,0);opacity:1}14.94%{opacity:1}15.01%,100%{opacity:0;transform:translate(0,0px)}}
+    .bv7{animation:bvk7 31.39411764705882s linear infinite}
+    @keyframes bvk7{0%{transform:translate(0,0);opacity:1}50.13%{transform:translate(0,0px)}50.20%{transform:translate(2px,0px)}50.67%{transform:translate(-2px,0px)}51.09%{opacity:1}51.15%,100%{opacity:0;transform:translate(0,0px)}}
+    .bv8{animation:bvk8 31.39411764705882s linear infinite}
+    @keyframes bvk8{0%{transform:translate(0,0);opacity:1}48.54%{transform:translate(0,0px)}48.60%{transform:translate(2px,0px)}49.08%{transform:translate(-2px,0px)}49.50%{opacity:1}49.56%,100%{opacity:0;transform:translate(0,0px)}}
+    .bv9{animation:bvk9 31.39411764705882s linear infinite}
+    @keyframes bvk9{0%{transform:translate(0,0);opacity:1}46.95%{transform:translate(0,0px)}47.01%{transform:translate(2px,0px)}47.49%{transform:translate(-2px,0px)}47.90%{opacity:1}47.97%,100%{opacity:0;transform:translate(0,0px)}}
+    .bv10{animation:bvk10 31.39411764705882s linear infinite}
+    @keyframes bvk10{0%{transform:translate(0,0);opacity:1}25.71%{transform:translate(0,0px)}25.77%{transform:translate(2px,0px)}26.25%{transform:translate(-2px,0px)}26.66%{opacity:1}26.73%,100%{opacity:0;transform:translate(0,0px)}}
+    .bv11{animation:bvk11 31.39411764705882s linear infinite}
+    @keyframes bvk11{0%{transform:translate(0,0);opacity:1}31.33%{opacity:1}31.39%,100%{opacity:0;transform:translate(0,0px)}}
+    .bv12{animation:bvk12 31.39411764705882s linear infinite}
+    @keyframes bvk12{0%{transform:translate(0,0);opacity:1}31.33%{opacity:1}31.39%,100%{opacity:0;transform:translate(0,0px)}}
+    .bv13{animation:bvk13 31.39411764705882s linear infinite}
+    @keyframes bvk13{0%{transform:translate(0,0);opacity:1}31.33%{opacity:1}31.39%,100%{opacity:0;transform:translate(0,0px)}}
+    .bv14{animation:bvk14 31.39411764705882s linear infinite}
+    @keyframes bvk14{0%{transform:translate(0,0);opacity:1}31.87%{transform:translate(0,0px)}32.66%{transform:translate(0,27px)}46.61%{opacity:1}46.68%,100%{opacity:0;transform:translate(0,27px)}}
+    .bv15{animation:bvk15 31.39411764705882s linear infinite}
+    @keyframes bvk15{0%{transform:translate(0,0);opacity:1}31.87%{transform:translate(0,0px)}32.66%{transform:translate(0,27px)}46.61%{opacity:1}46.68%,100%{opacity:0;transform:translate(0,27px)}}
+    .bv16{animation:bvk16 31.39411764705882s linear infinite}
+    @keyframes bvk16{0%{transform:translate(0,0);opacity:1}31.87%{transform:translate(0,0px)}32.66%{transform:translate(0,27px)}47.16%{transform:translate(0,27px)}47.95%{transform:translate(0,45px)}55.71%{transform:translate(0,45px)}55.77%{transform:translate(2px,45px)}56.25%{transform:translate(-2px,45px)}56.66%{opacity:1}56.73%,100%{opacity:0;transform:translate(0,45px)}}
+    .bv17{animation:bvk17 31.39411764705882s linear infinite}
+    @keyframes bvk17{0%{transform:translate(0,0);opacity:1}46.61%{opacity:1}46.68%,100%{opacity:0;transform:translate(0,0px)}}
+    .bv18{animation:bvk18 31.39411764705882s linear infinite}
+    @keyframes bvk18{0%{transform:translate(0,0);opacity:1}31.33%{opacity:1}31.39%,100%{opacity:0;transform:translate(0,0px)}}
+    .bv19{animation:bvk19 31.39411764705882s linear infinite}
+    @keyframes bvk19{0%{transform:translate(0,0);opacity:1}31.87%{transform:translate(0,0px)}32.66%{transform:translate(0,9px)}47.16%{transform:translate(0,9px)}47.95%{transform:translate(0,18px)}78.91%{transform:translate(0,18px)}78.98%{transform:translate(2px,18px)}79.45%{transform:translate(-2px,18px)}79.87%{opacity:1}79.93%,100%{opacity:0;transform:translate(0,18px)}}
+    .bv20{animation:bvk20 31.39411764705882s linear infinite}
+    @keyframes bvk20{0%{transform:translate(0,0);opacity:1}31.87%{transform:translate(0,0px)}32.66%{transform:translate(0,9px)}47.16%{transform:translate(0,9px)}47.95%{transform:translate(0,18px)}77.32%{transform:translate(0,18px)}77.38%{transform:translate(2px,18px)}77.86%{transform:translate(-2px,18px)}78.28%{opacity:1}78.34%,100%{opacity:0;transform:translate(0,18px)}}
+    .bv21{animation:bvk21 31.39411764705882s linear infinite}
+    @keyframes bvk21{0%{transform:translate(0,0);opacity:1}69.64%{opacity:1}69.70%,100%{opacity:0;transform:translate(0,0px)}}
+    .bv22{animation:bvk22 31.39411764705882s linear infinite}
+    @keyframes bvk22{0%{transform:translate(0,0);opacity:1}69.64%{opacity:1}69.70%,100%{opacity:0;transform:translate(0,0px)}}
+    .bv23{animation:bvk23 31.39411764705882s linear infinite}
+    @keyframes bvk23{0%{transform:translate(0,0);opacity:1}62.04%{opacity:1}62.10%,100%{opacity:0;transform:translate(0,0px)}}
+    .bv24{animation:bvk24 31.39411764705882s linear infinite}
+    @keyframes bvk24{0%{transform:translate(0,0);opacity:1}39.06%{opacity:1}39.12%,100%{opacity:0;transform:translate(0,0px)}}
+    .bv25{animation:bvk25 31.39411764705882s linear infinite}
+    @keyframes bvk25{0%{transform:translate(0,0);opacity:1}39.06%{opacity:1}39.12%,100%{opacity:0;transform:translate(0,0px)}}
+    .bv26{animation:bvk26 31.39411764705882s linear infinite}
+    @keyframes bvk26{0%{transform:translate(0,0);opacity:1}54.44%{opacity:1}54.51%,100%{opacity:0;transform:translate(0,0px)}}
+    .bv27{animation:bvk27 31.39411764705882s linear infinite}
+    @keyframes bvk27{0%{transform:translate(0,0);opacity:1}54.98%{transform:translate(0,0px)}55.78%{transform:translate(0,9px)}84.49%{transform:translate(0,9px)}84.55%{transform:translate(2px,9px)}85.03%{transform:translate(-2px,9px)}85.44%{opacity:1}85.51%,100%{opacity:0;transform:translate(0,9px)}}
+    .bv28{animation:bvk28 31.39411764705882s linear infinite}
+    @keyframes bvk28{0%{transform:translate(0,0);opacity:1}54.98%{transform:translate(0,0px)}55.78%{transform:translate(0,9px)}62.04%{opacity:1}62.10%,100%{opacity:0;transform:translate(0,9px)}}
+    .bv29{animation:bvk29 31.39411764705882s linear infinite}
+    @keyframes bvk29{0%{transform:translate(0,0);opacity:1}54.98%{transform:translate(0,0px)}55.78%{transform:translate(0,9px)}62.04%{opacity:1}62.10%,100%{opacity:0;transform:translate(0,9px)}}
+    .bv30{animation:bvk30 31.39411764705882s linear infinite}
+    @keyframes bvk30{0%{transform:translate(0,0);opacity:1}39.06%{opacity:1}39.12%,100%{opacity:0;transform:translate(0,0px)}}
+    .bv31{animation:bvk31 31.39411764705882s linear infinite}
+    @keyframes bvk31{0%{transform:translate(0,0);opacity:1}39.60%{transform:translate(0,0px)}40.40%{transform:translate(0,9px)}54.98%{transform:translate(0,9px)}55.78%{transform:translate(0,18px)}62.04%{opacity:1}62.10%,100%{opacity:0;transform:translate(0,18px)}}
+    .bv32{animation:bvk32 31.39411764705882s linear infinite}
+    @keyframes bvk32{0%{transform:translate(0,0);opacity:1}39.60%{transform:translate(0,0px)}40.40%{transform:translate(0,9px)}54.98%{transform:translate(0,9px)}55.78%{transform:translate(0,18px)}62.58%{transform:translate(0,18px)}63.38%{transform:translate(0,45px)}69.64%{opacity:1}69.70%,100%{opacity:0;transform:translate(0,45px)}}
+    .bv33{animation:bvk33 31.39411764705882s linear infinite}
+    @keyframes bvk33{0%{transform:translate(0,0);opacity:1}54.44%{opacity:1}54.51%,100%{opacity:0;transform:translate(0,0px)}}
+    .bv34{animation:bvk34 31.39411764705882s linear infinite}
+    @keyframes bvk34{0%{transform:translate(0,0);opacity:1}54.44%{opacity:1}54.51%,100%{opacity:0;transform:translate(0,0px)}}
+    .bv35{animation:bvk35 31.39411764705882s linear infinite}
+    @keyframes bvk35{0%{transform:translate(0,0);opacity:1}54.98%{transform:translate(0,0px)}55.78%{transform:translate(0,9px)}100%{transform:translate(0,9px);opacity:1}}
+    .bv36{animation:bvk36 31.39411764705882s linear infinite}
+    @keyframes bvk36{0%{transform:translate(0,0);opacity:1}54.98%{transform:translate(0,0px)}55.78%{transform:translate(0,9px)}100%{transform:translate(0,9px);opacity:1}}
+    .bv37{animation:bvk37 31.39411764705882s linear infinite}
+    @keyframes bvk37{0%{transform:translate(0,0);opacity:1}23.95%{opacity:1}24.02%,100%{opacity:0;transform:translate(0,0px)}}
+    .bv38{animation:bvk38 31.39411764705882s linear infinite}
+    @keyframes bvk38{0%{transform:translate(0,0);opacity:1}24.50%{transform:translate(0,0px)}25.29%{transform:translate(0,9px)}54.98%{transform:translate(0,9px)}55.78%{transform:translate(0,18px)}100%{transform:translate(0,18px);opacity:1}}
+    .bv39{animation:bvk39 31.39411764705882s linear infinite}
+    @keyframes bvk39{0%{transform:translate(0,0);opacity:1}24.50%{transform:translate(0,0px)}25.29%{transform:translate(0,9px)}54.98%{transform:translate(0,9px)}55.78%{transform:translate(0,18px)}90.06%{transform:translate(0,18px)}90.13%{transform:translate(2px,18px)}90.60%{transform:translate(-2px,18px)}91.02%{opacity:1}91.08%,100%{opacity:0;transform:translate(0,18px)}}
+    .bv40{animation:bvk40 31.39411764705882s linear infinite}
+    @keyframes bvk40{0%{transform:translate(0,0);opacity:1}92.76%{opacity:1}92.82%,100%{opacity:0;transform:translate(0,0px)}}
+    .bv41{animation:bvk41 31.39411764705882s linear infinite}
+    @keyframes bvk41{0%{transform:translate(0,0);opacity:1}23.95%{opacity:1}24.02%,100%{opacity:0;transform:translate(0,0px)}}
+    .bv42{animation:bvk42 31.39411764705882s linear infinite}
+    @keyframes bvk42{0%{transform:translate(0,0);opacity:1}23.95%{opacity:1}24.02%,100%{opacity:0;transform:translate(0,0px)}}
+    .bv43{animation:bvk43 31.39411764705882s linear infinite}
+    @keyframes bvk43{0%{transform:translate(0,0);opacity:1}23.95%{opacity:1}24.02%,100%{opacity:0;transform:translate(0,0px)}}
+    .bv44{animation:bvk44 31.39411764705882s linear infinite}
+    @keyframes bvk44{0%{transform:translate(0,0);opacity:1}24.50%{transform:translate(0,0px)}25.29%{transform:translate(0,27px)}92.76%{opacity:1}92.82%,100%{opacity:0;transform:translate(0,27px)}}
+    .bv45{animation:bvk45 31.39411764705882s linear infinite}
+    @keyframes bvk45{0%{transform:translate(0,0);opacity:1}24.50%{transform:translate(0,0px)}25.29%{transform:translate(0,27px)}92.76%{opacity:1}92.82%,100%{opacity:0;transform:translate(0,27px)}}
+    .bv46{animation:bvk46 31.39411764705882s linear infinite}
+    @keyframes bvk46{0%{transform:translate(0,0);opacity:1}92.76%{opacity:1}92.82%,100%{opacity:0;transform:translate(0,0px)}}
+    .bv47{animation:bvk47 31.39411764705882s linear infinite}
+    @keyframes bvk47{0%{transform:translate(0,0);opacity:1}23.95%{opacity:1}24.02%,100%{opacity:0;transform:translate(0,0px)}}
+    .bv48{animation:bvk48 31.39411764705882s linear infinite}
+    @keyframes bvk48{0%{transform:translate(0,0);opacity:1}85.25%{opacity:1}85.31%,100%{opacity:0;transform:translate(0,0px)}}
+    .bv49{animation:bvk49 31.39411764705882s linear infinite}
+    @keyframes bvk49{0%{transform:translate(0,0);opacity:1}85.79%{transform:translate(0,0px)}86.59%{transform:translate(0,9px)}100%{transform:translate(0,9px);opacity:1}}
+    .bv50{animation:bvk50 31.39411764705882s linear infinite}
+    @keyframes bvk50{0%{transform:translate(0,0);opacity:1}85.25%{opacity:1}85.31%,100%{opacity:0;transform:translate(0,0px)}}
+    .bv51{animation:bvk51 31.39411764705882s linear infinite}
+    @keyframes bvk51{0%{transform:translate(0,0);opacity:1}85.25%{opacity:1}85.31%,100%{opacity:0;transform:translate(0,0px)}}
+    .bv52{animation:bvk52 31.39411764705882s linear infinite}
+    @keyframes bvk52{0%{transform:translate(0,0);opacity:1}77.60%{opacity:1}77.67%,100%{opacity:0;transform:translate(0,0px)}}
+    .bv53{animation:bvk53 31.39411764705882s linear infinite}
+    @keyframes bvk53{0%{transform:translate(0,0);opacity:1}77.60%{opacity:1}77.67%,100%{opacity:0;transform:translate(0,0px)}}
+    .bv54{animation:bvk54 31.39411764705882s linear infinite}
+    @keyframes bvk54{0%{transform:translate(0,0);opacity:1}77.60%{opacity:1}77.67%,100%{opacity:0;transform:translate(0,0px)}}
+    .fk0{animation:fkk0 31.39411764705882s linear infinite}
+    @keyframes fkk0{0%,12.35%{opacity:0;transform:translate(0,0)}12.41%{opacity:1}13.37%{transform:translate(var(--fx),var(--fy2))}14.64%,100%{opacity:0;transform:translate(calc(var(--fx)*1.7),10px)}}
+    .fk1{animation:fkk1 31.39411764705882s linear infinite}
+    @keyframes fkk1{0%,13.94%{opacity:0;transform:translate(0,0)}14.01%{opacity:1}14.96%{transform:translate(var(--fx),var(--fy2))}16.24%,100%{opacity:0;transform:translate(calc(var(--fx)*1.7),10px)}}
+    .fk2{animation:fkk2 31.39411764705882s linear infinite}
+    @keyframes fkk2{0%,19.52%{opacity:0;transform:translate(0,0)}19.58%{opacity:1}20.54%{transform:translate(var(--fx),var(--fy2))}21.81%,100%{opacity:0;transform:translate(calc(var(--fx)*1.7),10px)}}
+    .fk3{animation:fkk3 31.39411764705882s linear infinite}
+    @keyframes fkk3{0%,26.66%{opacity:0;transform:translate(0,0)}26.73%{opacity:1}27.68%{transform:translate(var(--fx),var(--fy2))}28.96%,100%{opacity:0;transform:translate(calc(var(--fx)*1.7),10px)}}
+    .fk4{animation:fkk4 31.39411764705882s linear infinite}
+    @keyframes fkk4{0%,47.90%{opacity:0;transform:translate(0,0)}47.97%{opacity:1}48.92%{transform:translate(var(--fx),var(--fy2))}50.20%,100%{opacity:0;transform:translate(calc(var(--fx)*1.7),10px)}}
+    .fk5{animation:fkk5 31.39411764705882s linear infinite}
+    @keyframes fkk5{0%,49.50%{opacity:0;transform:translate(0,0)}49.56%{opacity:1}50.52%{transform:translate(var(--fx),var(--fy2))}51.79%,100%{opacity:0;transform:translate(calc(var(--fx)*1.7),10px)}}
+    .fk6{animation:fkk6 31.39411764705882s linear infinite}
+    @keyframes fkk6{0%,51.09%{opacity:0;transform:translate(0,0)}51.15%{opacity:1}52.11%{transform:translate(var(--fx),var(--fy2))}53.38%,100%{opacity:0;transform:translate(calc(var(--fx)*1.7),10px)}}
+    .fk7{animation:fkk7 31.39411764705882s linear infinite}
+    @keyframes fkk7{0%,56.66%{opacity:0;transform:translate(0,0)}56.73%{opacity:1}57.68%{transform:translate(var(--fx),var(--fy2))}58.96%,100%{opacity:0;transform:translate(calc(var(--fx)*1.7),10px)}}
+    .fk8{animation:fkk8 31.39411764705882s linear infinite}
+    @keyframes fkk8{0%,78.28%{opacity:0;transform:translate(0,0)}78.34%{opacity:1}79.30%{transform:translate(var(--fx),var(--fy2))}80.57%,100%{opacity:0;transform:translate(calc(var(--fx)*1.7),10px)}}
+    .fk9{animation:fkk9 31.39411764705882s linear infinite}
+    @keyframes fkk9{0%,79.87%{opacity:0;transform:translate(0,0)}79.93%{opacity:1}80.89%{transform:translate(var(--fx),var(--fy2))}82.16%,100%{opacity:0;transform:translate(calc(var(--fx)*1.7),10px)}}
+    .fk10{animation:fkk10 31.39411764705882s linear infinite}
+    @keyframes fkk10{0%,85.44%{opacity:0;transform:translate(0,0)}85.51%{opacity:1}86.46%{transform:translate(var(--fx),var(--fy2))}87.74%,100%{opacity:0;transform:translate(calc(var(--fx)*1.7),10px)}}
+    .fk11{animation:fkk11 31.39411764705882s linear infinite}
+    @keyframes fkk11{0%,91.02%{opacity:0;transform:translate(0,0)}91.08%{opacity:1}92.04%{transform:translate(var(--fx),var(--fy2))}93.31%,100%{opacity:0;transform:translate(calc(var(--fx)*1.7),10px)}}
+    .msx0{animation:msxk0 31.39411764705882s linear infinite}
+    @keyframes msxk0{0%,9.49%{transform:translateX(0);opacity:0}9.56%{opacity:1}15.01%{transform:translateX(428px);opacity:1}15.10%,100%{transform:translateX(428px);opacity:0}}
+    .msy0{animation:msyk0 31.39411764705882s linear infinite}
+    @keyframes msyk0{0%,9.56%{transform:translateY(0)}12.28%{transform:translateY(-103.5px)}15.01%,100%{transform:translateY(9px)}}
+    .msr0{animation:msrk0 31.39411764705882s linear infinite}
+    @keyframes msrk0{0%,9.56%{transform:rotate(0deg)}15.01%,100%{transform:rotate(220deg)}}
+    .msx1{animation:msxk1 31.39411764705882s linear infinite}
+    @keyframes msxk1{0%,17.14%{transform:translateX(0);opacity:0}17.20%{opacity:1}24.02%{transform:translateX(728px);opacity:1}24.11%,100%{transform:translateX(728px);opacity:0}}
+    .msy1{animation:msyk1 31.39411764705882s linear infinite}
+    @keyframes msyk1{0%,17.20%{transform:translateY(0)}20.61%{transform:translateY(-120px)}24.02%,100%{transform:translateY(-9px)}}
+    .msr1{animation:msrk1 31.39411764705882s linear infinite}
+    @keyframes msrk1{0%,17.20%{transform:rotate(0deg)}24.02%,100%{transform:rotate(220deg)}}
+    .msx2{animation:msxk2 31.39411764705882s linear infinite}
+    @keyframes msxk2{0%,24.78%{transform:translateX(0);opacity:0}24.85%{opacity:1}31.39%{transform:translateX(668px);opacity:1}31.48%,100%{transform:translateX(668px);opacity:0}}
+    .msy2{animation:msyk2 31.39411764705882s linear infinite}
+    @keyframes msyk2{0%,24.85%{transform:translateY(0)}28.12%{transform:translateY(-120px)}31.39%,100%{transform:translateY(9px)}}
+    .msr2{animation:msrk2 31.39411764705882s linear infinite}
+    @keyframes msrk2{0%,24.85%{transform:rotate(0deg)}31.39%,100%{transform:rotate(220deg)}}
+    .msx3{animation:msxk3 31.39411764705882s linear infinite}
+    @keyframes msxk3{0%,32.43%{transform:translateX(0);opacity:0}32.49%{opacity:1}39.12%{transform:translateX(688px);opacity:1}39.22%,100%{transform:translateX(688px);opacity:0}}
+    .msy3{animation:msyk3 31.39411764705882s linear infinite}
+    @keyframes msyk3{0%,32.49%{transform:translateY(0)}35.81%{transform:translateY(-120px)}39.12%,100%{transform:translateY(-18px)}}
+    .msr3{animation:msrk3 31.39411764705882s linear infinite}
+    @keyframes msrk3{0%,32.49%{transform:rotate(0deg)}39.12%,100%{transform:rotate(220deg)}}
+    .msx4{animation:msxk4 31.39411764705882s linear infinite}
+    @keyframes msxk4{0%,40.07%{transform:translateX(0);opacity:0}40.13%{opacity:1}46.68%{transform:translateX(668px);opacity:1}46.77%,100%{transform:translateX(668px);opacity:0}}
+    .msy4{animation:msyk4 31.39411764705882s linear infinite}
+    @keyframes msyk4{0%,40.13%{transform:translateY(0)}43.41%{transform:translateY(-120px)}46.68%,100%{transform:translateY(18px)}}
+    .msr4{animation:msrk4 31.39411764705882s linear infinite}
+    @keyframes msrk4{0%,40.13%{transform:rotate(0deg)}46.68%,100%{transform:rotate(220deg)}}
+    .msx5{animation:msxk5 31.39411764705882s linear infinite}
+    @keyframes msxk5{0%,47.72%{transform:translateX(0);opacity:0}47.78%{opacity:1}54.51%{transform:translateX(708px);opacity:1}54.60%,100%{transform:translateX(708px);opacity:0}}
+    .msy5{animation:msyk5 31.39411764705882s linear infinite}
+    @keyframes msyk5{0%,47.78%{transform:translateY(0)}51.14%{transform:translateY(-120px)}54.51%,100%{transform:translateY(18px)}}
+    .msr5{animation:msrk5 31.39411764705882s linear infinite}
+    @keyframes msrk5{0%,47.78%{transform:rotate(0deg)}54.51%,100%{transform:rotate(220deg)}}
+    .msx6{animation:msxk6 31.39411764705882s linear infinite}
+    @keyframes msxk6{0%,55.36%{transform:translateX(0);opacity:0}55.42%{opacity:1}62.10%{transform:translateX(698px);opacity:1}62.20%,100%{transform:translateX(698px);opacity:0}}
+    .msy6{animation:msyk6 31.39411764705882s linear infinite}
+    @keyframes msyk6{0%,55.42%{transform:translateY(0)}58.76%{transform:translateY(-120px)}62.10%,100%{transform:translateY(0px)}}
+    .msr6{animation:msrk6 31.39411764705882s linear infinite}
+    @keyframes msrk6{0%,55.42%{transform:rotate(0deg)}62.10%,100%{transform:rotate(220deg)}}
+    .msx7{animation:msxk7 31.39411764705882s linear infinite}
+    @keyframes msxk7{0%,63.01%{transform:translateX(0);opacity:0}63.07%{opacity:1}69.70%{transform:translateX(688px);opacity:1}69.80%,100%{transform:translateX(688px);opacity:0}}
+    .msy7{animation:msyk7 31.39411764705882s linear infinite}
+    @keyframes msyk7{0%,63.07%{transform:translateY(0)}66.39%{transform:translateY(-120px)}69.70%,100%{transform:translateY(9px)}}
+    .msr7{animation:msrk7 31.39411764705882s linear infinite}
+    @keyframes msrk7{0%,63.07%{transform:rotate(0deg)}69.70%,100%{transform:rotate(220deg)}}
+    .msx8{animation:msxk8 31.39411764705882s linear infinite}
+    @keyframes msxk8{0%,70.65%{transform:translateX(0);opacity:0}70.71%{opacity:1}77.67%{transform:translateX(758px);opacity:1}77.76%,100%{transform:translateX(758px);opacity:0}}
+    .msy8{animation:msyk8 31.39411764705882s linear infinite}
+    @keyframes msyk8{0%,70.71%{transform:translateY(0)}74.19%{transform:translateY(-120px)}77.67%,100%{transform:translateY(-9px)}}
+    .msr8{animation:msrk8 31.39411764705882s linear infinite}
+    @keyframes msrk8{0%,70.71%{transform:rotate(0deg)}77.67%,100%{transform:rotate(220deg)}}
+    .msx9{animation:msxk9 31.39411764705882s linear infinite}
+    @keyframes msxk9{0%,78.29%{transform:translateX(0);opacity:0}78.36%{opacity:1}85.31%{transform:translateX(758px);opacity:1}85.41%,100%{transform:translateX(758px);opacity:0}}
+    .msy9{animation:msyk9 31.39411764705882s linear infinite}
+    @keyframes msyk9{0%,78.36%{transform:translateY(0)}81.84%{transform:translateY(-120px)}85.31%,100%{transform:translateY(9px)}}
+    .msr9{animation:msrk9 31.39411764705882s linear infinite}
+    @keyframes msrk9{0%,78.36%{transform:rotate(0deg)}85.31%,100%{transform:rotate(220deg)}}
+    .msx10{animation:msxk10 31.39411764705882s linear infinite}
+    @keyframes msxk10{0%,85.94%{transform:translateX(0);opacity:0}86.00%{opacity:1}92.82%{transform:translateX(728px);opacity:1}92.92%,100%{transform:translateX(728px);opacity:0}}
+    .msy10{animation:msyk10 31.39411764705882s linear infinite}
+    @keyframes msyk10{0%,86.00%{transform:translateY(0)}89.41%{transform:translateY(-120px)}92.82%,100%{transform:translateY(0px)}}
+    .msr10{animation:msrk10 31.39411764705882s linear infinite}
+    @keyframes msrk10{0%,86.00%{transform:rotate(0deg)}92.82%,100%{transform:rotate(220deg)}}
+    .ef0{animation:efk0 31.39411764705882s linear infinite}
+    @keyframes efk0{0%,14.94%{opacity:0;transform:scale(0.3)}15.01%{opacity:1;transform:scale(1)}15.58%,100%{opacity:0;transform:scale(1.3)}}
+    .ep0{animation:epk0 31.39411764705882s linear infinite}
+    @keyframes epk0{0%,14.94%{opacity:0;transform:translate(0,0)}15.01%{opacity:1}15.96%{transform:translate(var(--px),var(--py))}16.76%{opacity:1;transform:translate(calc(var(--px)*1.5),12px)}16.92%,100%{opacity:0;transform:translate(calc(var(--px)*1.5),12px)}}
+    .ef1{animation:efk1 31.39411764705882s linear infinite}
+    @keyframes efk1{0%,23.95%{opacity:0;transform:scale(0.3)}24.02%{opacity:1;transform:scale(1)}24.59%,100%{opacity:0;transform:scale(1.3)}}
+    .ep1{animation:epk1 31.39411764705882s linear infinite}
+    @keyframes epk1{0%,23.95%{opacity:0;transform:translate(0,0)}24.02%{opacity:1}24.97%{transform:translate(var(--px),var(--py))}25.77%{opacity:1;transform:translate(calc(var(--px)*1.5),12px)}25.93%,100%{opacity:0;transform:translate(calc(var(--px)*1.5),12px)}}
+    .ef2{animation:efk2 31.39411764705882s linear infinite}
+    @keyframes efk2{0%,31.33%{opacity:0;transform:scale(0.3)}31.39%{opacity:1;transform:scale(1)}31.96%,100%{opacity:0;transform:scale(1.3)}}
+    .ep2{animation:epk2 31.39411764705882s linear infinite}
+    @keyframes epk2{0%,31.33%{opacity:0;transform:translate(0,0)}31.39%{opacity:1}32.34%{transform:translate(var(--px),var(--py))}33.14%{opacity:1;transform:translate(calc(var(--px)*1.5),12px)}33.30%,100%{opacity:0;transform:translate(calc(var(--px)*1.5),12px)}}
+    .ef3{animation:efk3 31.39411764705882s linear infinite}
+    @keyframes efk3{0%,39.06%{opacity:0;transform:scale(0.3)}39.12%{opacity:1;transform:scale(1)}39.70%,100%{opacity:0;transform:scale(1.3)}}
+    .ep3{animation:epk3 31.39411764705882s linear infinite}
+    @keyframes epk3{0%,39.06%{opacity:0;transform:translate(0,0)}39.12%{opacity:1}40.08%{transform:translate(var(--px),var(--py))}40.88%{opacity:1;transform:translate(calc(var(--px)*1.5),12px)}41.04%,100%{opacity:0;transform:translate(calc(var(--px)*1.5),12px)}}
+    .ef4{animation:efk4 31.39411764705882s linear infinite}
+    @keyframes efk4{0%,46.61%{opacity:0;transform:scale(0.3)}46.68%{opacity:1;transform:scale(1)}47.25%,100%{opacity:0;transform:scale(1.3)}}
+    .ep4{animation:epk4 31.39411764705882s linear infinite}
+    @keyframes epk4{0%,46.61%{opacity:0;transform:translate(0,0)}46.68%{opacity:1}47.63%{transform:translate(var(--px),var(--py))}48.43%{opacity:1;transform:translate(calc(var(--px)*1.5),12px)}48.59%,100%{opacity:0;transform:translate(calc(var(--px)*1.5),12px)}}
+    .ef5{animation:efk5 31.39411764705882s linear infinite}
+    @keyframes efk5{0%,54.44%{opacity:0;transform:scale(0.3)}54.51%{opacity:1;transform:scale(1)}55.08%,100%{opacity:0;transform:scale(1.3)}}
+    .ep5{animation:epk5 31.39411764705882s linear infinite}
+    @keyframes epk5{0%,54.44%{opacity:0;transform:translate(0,0)}54.51%{opacity:1}55.46%{transform:translate(var(--px),var(--py))}56.26%{opacity:1;transform:translate(calc(var(--px)*1.5),12px)}56.42%,100%{opacity:0;transform:translate(calc(var(--px)*1.5),12px)}}
+    .ef6{animation:efk6 31.39411764705882s linear infinite}
+    @keyframes efk6{0%,62.04%{opacity:0;transform:scale(0.3)}62.10%{opacity:1;transform:scale(1)}62.68%,100%{opacity:0;transform:scale(1.3)}}
+    .ep6{animation:epk6 31.39411764705882s linear infinite}
+    @keyframes epk6{0%,62.04%{opacity:0;transform:translate(0,0)}62.10%{opacity:1}63.06%{transform:translate(var(--px),var(--py))}63.86%{opacity:1;transform:translate(calc(var(--px)*1.5),12px)}64.02%,100%{opacity:0;transform:translate(calc(var(--px)*1.5),12px)}}
+    .ef7{animation:efk7 31.39411764705882s linear infinite}
+    @keyframes efk7{0%,69.64%{opacity:0;transform:scale(0.3)}69.70%{opacity:1;transform:scale(1)}70.28%,100%{opacity:0;transform:scale(1.3)}}
+    .ep7{animation:epk7 31.39411764705882s linear infinite}
+    @keyframes epk7{0%,69.64%{opacity:0;transform:translate(0,0)}69.70%{opacity:1}70.66%{transform:translate(var(--px),var(--py))}71.46%{opacity:1;transform:translate(calc(var(--px)*1.5),12px)}71.61%,100%{opacity:0;transform:translate(calc(var(--px)*1.5),12px)}}
+    .ef8{animation:efk8 31.39411764705882s linear infinite}
+    @keyframes efk8{0%,77.60%{opacity:0;transform:scale(0.3)}77.67%{opacity:1;transform:scale(1)}78.24%,100%{opacity:0;transform:scale(1.3)}}
+    .ep8{animation:epk8 31.39411764705882s linear infinite}
+    @keyframes epk8{0%,77.60%{opacity:0;transform:translate(0,0)}77.67%{opacity:1}78.62%{transform:translate(var(--px),var(--py))}79.42%{opacity:1;transform:translate(calc(var(--px)*1.5),12px)}79.58%,100%{opacity:0;transform:translate(calc(var(--px)*1.5),12px)}}
+    .ef9{animation:efk9 31.39411764705882s linear infinite}
+    @keyframes efk9{0%,85.25%{opacity:0;transform:scale(0.3)}85.31%{opacity:1;transform:scale(1)}85.89%,100%{opacity:0;transform:scale(1.3)}}
+    .ep9{animation:epk9 31.39411764705882s linear infinite}
+    @keyframes epk9{0%,85.25%{opacity:0;transform:translate(0,0)}85.31%{opacity:1}86.27%{transform:translate(var(--px),var(--py))}87.06%{opacity:1;transform:translate(calc(var(--px)*1.5),12px)}87.22%,100%{opacity:0;transform:translate(calc(var(--px)*1.5),12px)}}
+    .ef10{animation:efk10 31.39411764705882s linear infinite}
+    @keyframes efk10{0%,92.76%{opacity:0;transform:scale(0.3)}92.82%{opacity:1;transform:scale(1)}93.39%,100%{opacity:0;transform:scale(1.3)}}
+    .ep10{animation:epk10 31.39411764705882s linear infinite}
+    @keyframes epk10{0%,92.76%{opacity:0;transform:translate(0,0)}92.82%{opacity:1}93.78%{transform:translate(var(--px),var(--py))}94.57%{opacity:1;transform:translate(calc(var(--px)*1.5),12px)}94.73%,100%{opacity:0;transform:translate(calc(var(--px)*1.5),12px)}}
   </style>
   <g fill="#f6c744"><rect x="80" y="30" width="16" height="4"/><rect x="76" y="34" width="24" height="4"/><rect x="72" y="38" width="32" height="4"/><rect x="72" y="42" width="32" height="4"/><rect x="72" y="46" width="32" height="4"/><rect x="72" y="50" width="32" height="4"/><rect x="76" y="54" width="24" height="4"/><rect x="80" y="58" width="16" height="4"/></g><g fill="#f6c744"><rect x="86" y="18" width="4" height="8"/><rect x="86" y="66" width="4" height="8"/>
       <rect x="60" y="44" width="8" height="4"/><rect x="108" y="44" width="8" height="4"/>
@@ -313,21 +323,21 @@
     <rect x="-8" y="164" width="212" height="4"/>
     <rect x="-16" y="168" width="252" height="4"/></g>
     <rect x="0" y="172" width="900" height="26" fill="#e9e1d1"/>
-    <rect x="0" y="172" width="900" height="2" fill="#d7ccb7"/><rect x="146" y="169" width="3" height="3" fill="#40c463"/>
-      <rect x="150" y="167" width="2" height="5" fill="#30a14e"/><rect x="247" y="169" width="3" height="3" fill="#40c463"/>
-      <rect x="251" y="167" width="2" height="5" fill="#30a14e"/><rect x="653" y="169" width="3" height="3" fill="#40c463"/>
-      <rect x="657" y="167" width="2" height="5" fill="#30a14e"/><rect x="574" y="169" width="3" height="3" fill="#9be9a8"/>
-      <rect x="578" y="167" width="2" height="5" fill="#40c463"/><rect x="309" y="169" width="3" height="3" fill="#9be9a8"/>
-      <rect x="313" y="167" width="2" height="5" fill="#40c463"/><rect x="428" y="169" width="3" height="3" fill="#9be9a8"/>
-      <rect x="432" y="167" width="2" height="5" fill="#40c463"/><rect x="242" y="169" width="3" height="3" fill="#9be9a8"/>
-      <rect x="246" y="167" width="2" height="5" fill="#40c463"/><rect x="409" y="169" width="3" height="3" fill="#9be9a8"/>
-      <rect x="413" y="167" width="2" height="5" fill="#40c463"/><rect x="539" y="169" width="3" height="3" fill="#40c463"/>
-      <rect x="543" y="167" width="2" height="5" fill="#30a14e"/><rect x="657" y="169" width="3" height="3" fill="#9be9a8"/>
-      <rect x="661" y="167" width="2" height="5" fill="#40c463"/><rect x="604" y="169" width="3" height="3" fill="#40c463"/>
-      <rect x="608" y="167" width="2" height="5" fill="#30a14e"/><rect x="340" y="169" width="3" height="3" fill="#40c463"/>
-      <rect x="344" y="167" width="2" height="5" fill="#30a14e"/><rect x="440" y="169" width="3" height="3" fill="#9be9a8"/>
-      <rect x="444" y="167" width="2" height="5" fill="#40c463"/><rect x="518" y="169" width="3" height="3" fill="#40c463"/>
-      <rect x="522" y="167" width="2" height="5" fill="#30a14e"/><g>
+    <rect x="0" y="172" width="900" height="2" fill="#d7ccb7"/><rect x="704" y="169" width="3" height="3" fill="#40c463"/>
+      <rect x="708" y="167" width="2" height="5" fill="#30a14e"/><rect x="668" y="169" width="3" height="3" fill="#9be9a8"/>
+      <rect x="672" y="167" width="2" height="5" fill="#40c463"/><rect x="656" y="169" width="3" height="3" fill="#9be9a8"/>
+      <rect x="660" y="167" width="2" height="5" fill="#40c463"/><rect x="406" y="169" width="3" height="3" fill="#9be9a8"/>
+      <rect x="410" y="167" width="2" height="5" fill="#40c463"/><rect x="465" y="169" width="3" height="3" fill="#9be9a8"/>
+      <rect x="469" y="167" width="2" height="5" fill="#40c463"/><rect x="580" y="169" width="3" height="3" fill="#40c463"/>
+      <rect x="584" y="167" width="2" height="5" fill="#30a14e"/><rect x="157" y="169" width="3" height="3" fill="#40c463"/>
+      <rect x="161" y="167" width="2" height="5" fill="#30a14e"/><rect x="26" y="169" width="3" height="3" fill="#9be9a8"/>
+      <rect x="30" y="167" width="2" height="5" fill="#40c463"/><rect x="332" y="169" width="3" height="3" fill="#40c463"/>
+      <rect x="336" y="167" width="2" height="5" fill="#30a14e"/><rect x="541" y="169" width="3" height="3" fill="#9be9a8"/>
+      <rect x="545" y="167" width="2" height="5" fill="#40c463"/><rect x="226" y="169" width="3" height="3" fill="#9be9a8"/>
+      <rect x="230" y="167" width="2" height="5" fill="#40c463"/><rect x="61" y="169" width="3" height="3" fill="#40c463"/>
+      <rect x="65" y="167" width="2" height="5" fill="#30a14e"/><rect x="705" y="169" width="3" height="3" fill="#9be9a8"/>
+      <rect x="709" y="167" width="2" height="5" fill="#40c463"/><rect x="196" y="169" width="3" height="3" fill="#9be9a8"/>
+      <rect x="200" y="167" width="2" height="5" fill="#40c463"/><g>
     <g fill="#993c1d">
       <rect x="30" y="152" width="8" height="4"/>
       <rect x="26" y="156" width="16" height="4"/>
@@ -381,45 +391,45 @@
     <g fill="#3c1508">
       <rect x="4" y="4" width="1" height="2"/><rect x="6" y="4" width="1" height="2"/>
     </g>
-  </g></g></g></g></g><g class="fall" style="--fd:-42px"><g class="bv0"><rect x="444" y="164" width="8" height="8" rx="2" fill="#40c463"/></g></g><g class="fall" style="--fd:-43px"><g class="bv1"><rect x="444" y="155" width="8" height="8" rx="2" fill="#9be9a8"/></g></g><g class="fall" style="--fd:-2px"><g class="bv2"><rect x="464" y="164" width="8" height="8" rx="2" fill="#40c463"/></g></g><g class="fall" style="--fd:-3px"><g class="bv3"><rect x="464" y="155" width="8" height="8" rx="2" fill="#40c463"/></g></g><g class="fall" style="--fd:-4px"><g class="bv4"><rect x="464" y="146" width="8" height="8" rx="2" fill="#40c463"/></g></g><g class="fall" style="--fd:-52px"><g class="bv5"><rect x="474" y="164" width="8" height="8" rx="2" fill="#40c463"/></g></g><g class="fall" style="--fd:-53px"><g class="bv6"><rect x="474" y="155" width="8" height="8" rx="2" fill="#216e39"/></g></g><g class="fall" style="--fd:-2px"><g class="bv7"><rect x="694" y="164" width="8" height="8" rx="2" fill="#9be9a8"/></g></g><g class="fall" style="--fd:-3px"><g class="bv8"><rect x="694" y="155" width="8" height="8" rx="2" fill="#40c463"/></g></g><g class="fall" style="--fd:-4px"><g class="bv9"><rect x="694" y="146" width="8" height="8" rx="2" fill="#30a14e"/></g></g><g class="fall" style="--fd:-5px"><g class="bv10"><rect x="694" y="137" width="8" height="8" rx="2" fill="#40c463"/></g></g><g class="fall" style="--fd:-12px"><g class="bv11"><rect x="704" y="164" width="8" height="8" rx="2" fill="#40c463"/></g></g><g class="fall" style="--fd:-13px"><g class="bv12"><rect x="704" y="155" width="8" height="8" rx="2" fill="#9be9a8"/></g></g><g class="fall" style="--fd:-14px"><g class="bv13"><rect x="704" y="146" width="8" height="8" rx="2" fill="#40c463"/></g></g><g class="fall" style="--fd:-15px"><g class="bv14"><rect x="704" y="137" width="8" height="8" rx="2" fill="#40c463"/></g></g><g class="fall" style="--fd:-16px"><g class="bv15"><rect x="704" y="128" width="8" height="8" rx="2" fill="#216e39"/></g></g><g class="fall" style="--fd:-17px"><g class="bv16"><rect x="704" y="119" width="8" height="8" rx="2" fill="#9be9a8"/></g></g><g class="fall" style="--fd:-2px"><g class="bv17"><rect x="714" y="164" width="8" height="8" rx="2" fill="#9be9a8"/></g></g><g class="fall" style="--fd:-3px"><g class="bv18"><rect x="714" y="155" width="8" height="8" rx="2" fill="#40c463"/></g></g><g class="fall" style="--fd:-4px"><g class="bv19"><rect x="714" y="146" width="8" height="8" rx="2" fill="#40c463"/></g></g><g class="fall" style="--fd:-5px"><g class="bv20"><rect x="714" y="137" width="8" height="8" rx="2" fill="#40c463"/></g></g><g class="fall" style="--fd:-2px"><g class="bv21"><rect x="724" y="164" width="8" height="8" rx="2" fill="#9be9a8"/></g></g><g class="fall" style="--fd:-13px"><g class="bv22"><rect x="724" y="155" width="8" height="8" rx="2" fill="#40c463"/></g></g><g class="fall" style="--fd:-14px"><g class="bv23"><rect x="724" y="146" width="8" height="8" rx="2" fill="#40c463"/></g></g><g class="fall" style="--fd:-15px"><g class="bv24"><rect x="724" y="137" width="8" height="8" rx="2" fill="#9be9a8"/></g></g><g class="fall" style="--fd:-26px"><g class="bv25"><rect x="724" y="128" width="8" height="8" rx="2" fill="#9be9a8"/></g></g><g class="fall" style="--fd:-2px"><g class="bv26"><rect x="734" y="164" width="8" height="8" rx="2" fill="#40c463"/></g></g><g class="fall" style="--fd:-3px"><g class="bv27"><rect x="734" y="155" width="8" height="8" rx="2" fill="#216e39"/></g></g><g class="fall" style="--fd:-4px"><g class="bv28"><rect x="734" y="146" width="8" height="8" rx="2" fill="#40c463"/></g></g><g class="fall" style="--fd:-5px"><g class="bv29"><rect x="734" y="137" width="8" height="8" rx="2" fill="#9be9a8"/></g></g><g class="fall" style="--fd:-6px"><g class="bv30"><rect x="734" y="128" width="8" height="8" rx="2" fill="#9be9a8"/></g></g><g class="fall" style="--fd:-7px"><g class="bv31"><rect x="734" y="119" width="8" height="8" rx="2" fill="#40c463"/></g></g><g class="fall" style="--fd:-8px"><g class="bv32"><rect x="734" y="110" width="8" height="8" rx="2" fill="#9be9a8"/></g></g><g class="fall" style="--fd:-32px"><g class="bv33"><rect x="744" y="164" width="8" height="8" rx="2" fill="#9be9a8"/></g></g><g class="fall" style="--fd:-2px"><g class="bv34"><rect x="754" y="164" width="8" height="8" rx="2" fill="#9be9a8"/></g></g><g class="fall" style="--fd:-3px"><g class="bv35"><rect x="754" y="155" width="8" height="8" rx="2" fill="#216e39"/></g></g><g class="fall" style="--fd:-4px"><g class="bv36"><rect x="754" y="146" width="8" height="8" rx="2" fill="#30a14e"/></g></g><g class="fall" style="--fd:-5px"><g class="bv37"><rect x="754" y="137" width="8" height="8" rx="2" fill="#40c463"/></g></g><g class="fall" style="--fd:-6px"><g class="bv38"><rect x="754" y="128" width="8" height="8" rx="2" fill="#40c463"/></g></g><g class="fall" style="--fd:-7px"><g class="bv39"><rect x="754" y="119" width="8" height="8" rx="2" fill="#40c463"/></g></g><g class="fall" style="--fd:-2px"><rect x="764" y="164" width="8" height="8" rx="2" fill="#9be9a8"/></g><g class="fall" style="--fd:-3px"><rect x="764" y="155" width="8" height="8" rx="2" fill="#9be9a8"/></g><g class="fall" style="--fd:-4px"><g class="bv40"><rect x="764" y="146" width="8" height="8" rx="2" fill="#40c463"/></g></g><g class="fall" style="--fd:-5px"><g class="bv41"><rect x="764" y="137" width="8" height="8" rx="2" fill="#9be9a8"/></g></g><g class="fall" style="--fd:-6px"><g class="bv42"><rect x="764" y="128" width="8" height="8" rx="2" fill="#40c463"/></g></g><g class="fall" style="--fd:-7px"><g class="bv43"><rect x="764" y="119" width="8" height="8" rx="2" fill="#9be9a8"/></g></g><g class="fall" style="--fd:-8px"><g class="bv44"><rect x="764" y="110" width="8" height="8" rx="2" fill="#9be9a8"/></g></g><g class="fall" style="--fd:-12px"><rect x="774" y="164" width="8" height="8" rx="2" fill="#9be9a8"/></g><g class="fall" style="--fd:-23px"><g class="bv45"><rect x="774" y="155" width="8" height="8" rx="2" fill="#40c463"/></g></g><g class="fall" style="--fd:-34px"><g class="bv46"><rect x="774" y="146" width="8" height="8" rx="2" fill="#9be9a8"/></g></g><g class="fall" style="--fd:-35px"><g class="bv47"><rect x="774" y="137" width="8" height="8" rx="2" fill="#40c463"/></g></g><g class="fall" style="--fd:-32px"><g class="bv48"><rect x="784" y="164" width="8" height="8" rx="2" fill="#9be9a8"/></g></g><g class="fall" style="--fd:-33px"><g class="bv49"><rect x="784" y="155" width="8" height="8" rx="2" fill="#40c463"/></g></g><g class="fall" style="--fd:-44px"><g class="bv50"><rect x="784" y="146" width="8" height="8" rx="2" fill="#40c463"/></g></g><g class="fall" style="--fd:-12px"><rect x="794" y="164" width="8" height="8" rx="2" fill="#9be9a8"/></g><g class="fall" style="--fd:-13px"><g class="bv51"><rect x="794" y="155" width="8" height="8" rx="2" fill="#40c463"/></g></g><g class="fall" style="--fd:-14px"><g class="bv52"><rect x="794" y="146" width="8" height="8" rx="2" fill="#40c463"/></g></g><g class="fall" style="--fd:-15px"><g class="bv53"><rect x="794" y="137" width="8" height="8" rx="2" fill="#30a14e"/></g></g><g class="fall" style="--fd:-16px"><g class="bv54"><rect x="794" y="128" width="8" height="8" rx="2" fill="#40c463"/></g></g><g transform="translate(448 159)"><g class="fk0" style="--fx:-8px;--fy2:-10px">
+  </g></g></g></g></g><g class="fall" style="--fd:-42px"><g class="bv0"><rect x="444" y="164" width="8" height="8" rx="2" fill="#40c463"/></g></g><g class="fall" style="--fd:-43px"><g class="bv1"><rect x="444" y="155" width="8" height="8" rx="2" fill="#9be9a8"/></g></g><g class="fall" style="--fd:-2px"><g class="bv2"><rect x="464" y="164" width="8" height="8" rx="2" fill="#40c463"/></g></g><g class="fall" style="--fd:-3px"><g class="bv3"><rect x="464" y="155" width="8" height="8" rx="2" fill="#40c463"/></g></g><g class="fall" style="--fd:-4px"><g class="bv4"><rect x="464" y="146" width="8" height="8" rx="2" fill="#40c463"/></g></g><g class="fall" style="--fd:-52px"><g class="bv5"><rect x="474" y="164" width="8" height="8" rx="2" fill="#40c463"/></g></g><g class="fall" style="--fd:-53px"><g class="bv6"><rect x="474" y="155" width="8" height="8" rx="2" fill="#216e39"/></g></g><g class="fall" style="--fd:-2px"><g class="bv7"><rect x="694" y="164" width="8" height="8" rx="2" fill="#9be9a8"/></g></g><g class="fall" style="--fd:-3px"><g class="bv8"><rect x="694" y="155" width="8" height="8" rx="2" fill="#40c463"/></g></g><g class="fall" style="--fd:-4px"><g class="bv9"><rect x="694" y="146" width="8" height="8" rx="2" fill="#30a14e"/></g></g><g class="fall" style="--fd:-5px"><g class="bv10"><rect x="694" y="137" width="8" height="8" rx="2" fill="#40c463"/></g></g><g class="fall" style="--fd:-12px"><g class="bv11"><rect x="704" y="164" width="8" height="8" rx="2" fill="#40c463"/></g></g><g class="fall" style="--fd:-13px"><g class="bv12"><rect x="704" y="155" width="8" height="8" rx="2" fill="#9be9a8"/></g></g><g class="fall" style="--fd:-14px"><g class="bv13"><rect x="704" y="146" width="8" height="8" rx="2" fill="#40c463"/></g></g><g class="fall" style="--fd:-15px"><g class="bv14"><rect x="704" y="137" width="8" height="8" rx="2" fill="#40c463"/></g></g><g class="fall" style="--fd:-16px"><g class="bv15"><rect x="704" y="128" width="8" height="8" rx="2" fill="#216e39"/></g></g><g class="fall" style="--fd:-17px"><g class="bv16"><rect x="704" y="119" width="8" height="8" rx="2" fill="#9be9a8"/></g></g><g class="fall" style="--fd:-2px"><g class="bv17"><rect x="714" y="164" width="8" height="8" rx="2" fill="#9be9a8"/></g></g><g class="fall" style="--fd:-3px"><g class="bv18"><rect x="714" y="155" width="8" height="8" rx="2" fill="#40c463"/></g></g><g class="fall" style="--fd:-4px"><g class="bv19"><rect x="714" y="146" width="8" height="8" rx="2" fill="#40c463"/></g></g><g class="fall" style="--fd:-5px"><g class="bv20"><rect x="714" y="137" width="8" height="8" rx="2" fill="#40c463"/></g></g><g class="fall" style="--fd:-2px"><g class="bv21"><rect x="724" y="164" width="8" height="8" rx="2" fill="#9be9a8"/></g></g><g class="fall" style="--fd:-13px"><g class="bv22"><rect x="724" y="155" width="8" height="8" rx="2" fill="#40c463"/></g></g><g class="fall" style="--fd:-14px"><g class="bv23"><rect x="724" y="146" width="8" height="8" rx="2" fill="#40c463"/></g></g><g class="fall" style="--fd:-15px"><g class="bv24"><rect x="724" y="137" width="8" height="8" rx="2" fill="#9be9a8"/></g></g><g class="fall" style="--fd:-26px"><g class="bv25"><rect x="724" y="128" width="8" height="8" rx="2" fill="#9be9a8"/></g></g><g class="fall" style="--fd:-2px"><g class="bv26"><rect x="734" y="164" width="8" height="8" rx="2" fill="#40c463"/></g></g><g class="fall" style="--fd:-3px"><g class="bv27"><rect x="734" y="155" width="8" height="8" rx="2" fill="#216e39"/></g></g><g class="fall" style="--fd:-4px"><g class="bv28"><rect x="734" y="146" width="8" height="8" rx="2" fill="#40c463"/></g></g><g class="fall" style="--fd:-5px"><g class="bv29"><rect x="734" y="137" width="8" height="8" rx="2" fill="#9be9a8"/></g></g><g class="fall" style="--fd:-6px"><g class="bv30"><rect x="734" y="128" width="8" height="8" rx="2" fill="#9be9a8"/></g></g><g class="fall" style="--fd:-7px"><g class="bv31"><rect x="734" y="119" width="8" height="8" rx="2" fill="#40c463"/></g></g><g class="fall" style="--fd:-8px"><g class="bv32"><rect x="734" y="110" width="8" height="8" rx="2" fill="#9be9a8"/></g></g><g class="fall" style="--fd:-32px"><g class="bv33"><rect x="744" y="164" width="8" height="8" rx="2" fill="#9be9a8"/></g></g><g class="fall" style="--fd:-2px"><g class="bv34"><rect x="754" y="164" width="8" height="8" rx="2" fill="#9be9a8"/></g></g><g class="fall" style="--fd:-3px"><g class="bv35"><rect x="754" y="155" width="8" height="8" rx="2" fill="#216e39"/></g></g><g class="fall" style="--fd:-4px"><g class="bv36"><rect x="754" y="146" width="8" height="8" rx="2" fill="#30a14e"/></g></g><g class="fall" style="--fd:-5px"><g class="bv37"><rect x="754" y="137" width="8" height="8" rx="2" fill="#40c463"/></g></g><g class="fall" style="--fd:-6px"><g class="bv38"><rect x="754" y="128" width="8" height="8" rx="2" fill="#40c463"/></g></g><g class="fall" style="--fd:-7px"><g class="bv39"><rect x="754" y="119" width="8" height="8" rx="2" fill="#40c463"/></g></g><g class="fall" style="--fd:-2px"><rect x="764" y="164" width="8" height="8" rx="2" fill="#9be9a8"/></g><g class="fall" style="--fd:-3px"><g class="bv40"><rect x="764" y="155" width="8" height="8" rx="2" fill="#9be9a8"/></g></g><g class="fall" style="--fd:-4px"><g class="bv41"><rect x="764" y="146" width="8" height="8" rx="2" fill="#40c463"/></g></g><g class="fall" style="--fd:-5px"><g class="bv42"><rect x="764" y="137" width="8" height="8" rx="2" fill="#9be9a8"/></g></g><g class="fall" style="--fd:-6px"><g class="bv43"><rect x="764" y="128" width="8" height="8" rx="2" fill="#40c463"/></g></g><g class="fall" style="--fd:-7px"><g class="bv44"><rect x="764" y="119" width="8" height="8" rx="2" fill="#9be9a8"/></g></g><g class="fall" style="--fd:-8px"><g class="bv45"><rect x="764" y="110" width="8" height="8" rx="2" fill="#9be9a8"/></g></g><g class="fall" style="--fd:-12px"><rect x="774" y="164" width="8" height="8" rx="2" fill="#9be9a8"/></g><g class="fall" style="--fd:-23px"><rect x="774" y="155" width="8" height="8" rx="2" fill="#40c463"/></g><g class="fall" style="--fd:-34px"><g class="bv46"><rect x="774" y="146" width="8" height="8" rx="2" fill="#9be9a8"/></g></g><g class="fall" style="--fd:-35px"><g class="bv47"><rect x="774" y="137" width="8" height="8" rx="2" fill="#40c463"/></g></g><g class="fall" style="--fd:-32px"><rect x="784" y="164" width="8" height="8" rx="2" fill="#9be9a8"/></g><g class="fall" style="--fd:-33px"><g class="bv48"><rect x="784" y="155" width="8" height="8" rx="2" fill="#40c463"/></g></g><g class="fall" style="--fd:-44px"><g class="bv49"><rect x="784" y="146" width="8" height="8" rx="2" fill="#40c463"/></g></g><g class="fall" style="--fd:-12px"><g class="bv50"><rect x="794" y="164" width="8" height="8" rx="2" fill="#40c463"/></g></g><g class="fall" style="--fd:-13px"><g class="bv51"><rect x="794" y="155" width="8" height="8" rx="2" fill="#40c463"/></g></g><g class="fall" style="--fd:-14px"><g class="bv52"><rect x="794" y="146" width="8" height="8" rx="2" fill="#40c463"/></g></g><g class="fall" style="--fd:-15px"><g class="bv53"><rect x="794" y="137" width="8" height="8" rx="2" fill="#30a14e"/></g></g><g class="fall" style="--fd:-16px"><g class="bv54"><rect x="794" y="128" width="8" height="8" rx="2" fill="#40c463"/></g></g><g transform="translate(448 159)"><g class="fk0" style="--fx:-8px;--fy2:-10px">
         <rect x="-2" y="-2" width="4" height="4" fill="#9be9a8"/></g></g><g transform="translate(448 159)"><g class="fk0" style="--fx:-3px;--fy2:-13px">
         <rect x="-2" y="-2" width="4" height="4" fill="#9be9a8"/></g></g><g transform="translate(448 159)"><g class="fk0" style="--fx:4px;--fy2:-7px">
         <rect x="-2" y="-2" width="4" height="2" fill="#9be9a8"/></g></g><g transform="translate(448 168)"><g class="fk1" style="--fx:-8px;--fy2:-10px">
         <rect x="-2" y="-2" width="4" height="4" fill="#40c463"/></g></g><g transform="translate(448 168)"><g class="fk1" style="--fx:-3px;--fy2:-13px">
         <rect x="-2" y="-2" width="4" height="4" fill="#40c463"/></g></g><g transform="translate(448 168)"><g class="fk1" style="--fx:4px;--fy2:-7px">
-        <rect x="-2" y="-2" width="4" height="2" fill="#40c463"/></g></g><g transform="translate(468 150)"><g class="fk2" style="--fx:-8px;--fy2:-10px">
-        <rect x="-2" y="-2" width="4" height="4" fill="#40c463"/></g></g><g transform="translate(468 150)"><g class="fk2" style="--fx:-3px;--fy2:-13px">
-        <rect x="-2" y="-2" width="4" height="4" fill="#40c463"/></g></g><g transform="translate(468 150)"><g class="fk2" style="--fx:4px;--fy2:-7px">
-        <rect x="-2" y="-2" width="4" height="2" fill="#40c463"/></g></g><g transform="translate(468 159)"><g class="fk3" style="--fx:-8px;--fy2:-10px">
-        <rect x="-2" y="-2" width="4" height="4" fill="#40c463"/></g></g><g transform="translate(468 159)"><g class="fk3" style="--fx:-3px;--fy2:-13px">
-        <rect x="-2" y="-2" width="4" height="4" fill="#40c463"/></g></g><g transform="translate(468 159)"><g class="fk3" style="--fx:4px;--fy2:-7px">
-        <rect x="-2" y="-2" width="4" height="2" fill="#40c463"/></g></g><g transform="translate(468 168)"><g class="fk4" style="--fx:-8px;--fy2:-10px">
-        <rect x="-2" y="-2" width="4" height="4" fill="#40c463"/></g></g><g transform="translate(468 168)"><g class="fk4" style="--fx:-3px;--fy2:-13px">
-        <rect x="-2" y="-2" width="4" height="4" fill="#40c463"/></g></g><g transform="translate(468 168)"><g class="fk4" style="--fx:4px;--fy2:-7px">
-        <rect x="-2" y="-2" width="4" height="2" fill="#40c463"/></g></g><g transform="translate(478 159)"><g class="fk5" style="--fx:-8px;--fy2:-10px">
-        <rect x="-2" y="-2" width="4" height="4" fill="#216e39"/></g></g><g transform="translate(478 159)"><g class="fk5" style="--fx:-3px;--fy2:-13px">
-        <rect x="-2" y="-2" width="4" height="4" fill="#216e39"/></g></g><g transform="translate(478 159)"><g class="fk5" style="--fx:4px;--fy2:-7px">
-        <rect x="-2" y="-2" width="4" height="2" fill="#216e39"/></g></g><g transform="translate(478 168)"><g class="fk6" style="--fx:-8px;--fy2:-10px">
-        <rect x="-2" y="-2" width="4" height="4" fill="#40c463"/></g></g><g transform="translate(478 168)"><g class="fk6" style="--fx:-3px;--fy2:-13px">
-        <rect x="-2" y="-2" width="4" height="4" fill="#40c463"/></g></g><g transform="translate(478 168)"><g class="fk6" style="--fx:4px;--fy2:-7px">
-        <rect x="-2" y="-2" width="4" height="2" fill="#40c463"/></g></g><g transform="translate(698 141)"><g class="fk7" style="--fx:-8px;--fy2:-10px">
-        <rect x="-2" y="-2" width="4" height="4" fill="#40c463"/></g></g><g transform="translate(698 141)"><g class="fk7" style="--fx:-3px;--fy2:-13px">
-        <rect x="-2" y="-2" width="4" height="4" fill="#40c463"/></g></g><g transform="translate(698 141)"><g class="fk7" style="--fx:4px;--fy2:-7px">
-        <rect x="-2" y="-2" width="4" height="2" fill="#40c463"/></g></g><g transform="translate(698 150)"><g class="fk8" style="--fx:-8px;--fy2:-10px">
-        <rect x="-2" y="-2" width="4" height="4" fill="#30a14e"/></g></g><g transform="translate(698 150)"><g class="fk8" style="--fx:-3px;--fy2:-13px">
-        <rect x="-2" y="-2" width="4" height="4" fill="#30a14e"/></g></g><g transform="translate(698 150)"><g class="fk8" style="--fx:4px;--fy2:-7px">
-        <rect x="-2" y="-2" width="4" height="2" fill="#30a14e"/></g></g><g transform="translate(698 159)"><g class="fk9" style="--fx:-8px;--fy2:-10px">
-        <rect x="-2" y="-2" width="4" height="4" fill="#40c463"/></g></g><g transform="translate(698 159)"><g class="fk9" style="--fx:-3px;--fy2:-13px">
-        <rect x="-2" y="-2" width="4" height="4" fill="#40c463"/></g></g><g transform="translate(698 159)"><g class="fk9" style="--fx:4px;--fy2:-7px">
-        <rect x="-2" y="-2" width="4" height="2" fill="#40c463"/></g></g><g transform="translate(698 168)"><g class="fk10" style="--fx:-8px;--fy2:-10px">
-        <rect x="-2" y="-2" width="4" height="4" fill="#9be9a8"/></g></g><g transform="translate(698 168)"><g class="fk10" style="--fx:-3px;--fy2:-13px">
-        <rect x="-2" y="-2" width="4" height="4" fill="#9be9a8"/></g></g><g transform="translate(698 168)"><g class="fk10" style="--fx:4px;--fy2:-7px">
-        <rect x="-2" y="-2" width="4" height="2" fill="#9be9a8"/></g></g><g transform="translate(708 159)"><g class="fk11" style="--fx:-8px;--fy2:-10px">
-        <rect x="-2" y="-2" width="4" height="4" fill="#9be9a8"/></g></g><g transform="translate(708 159)"><g class="fk11" style="--fx:-3px;--fy2:-13px">
-        <rect x="-2" y="-2" width="4" height="4" fill="#9be9a8"/></g></g><g transform="translate(708 159)"><g class="fk11" style="--fx:4px;--fy2:-7px">
-        <rect x="-2" y="-2" width="4" height="2" fill="#9be9a8"/></g></g><g>
+        <rect x="-2" y="-2" width="4" height="2" fill="#40c463"/></g></g><g transform="translate(478 168)"><g class="fk2" style="--fx:-8px;--fy2:-10px">
+        <rect x="-2" y="-2" width="4" height="4" fill="#40c463"/></g></g><g transform="translate(478 168)"><g class="fk2" style="--fx:-3px;--fy2:-13px">
+        <rect x="-2" y="-2" width="4" height="4" fill="#40c463"/></g></g><g transform="translate(478 168)"><g class="fk2" style="--fx:4px;--fy2:-7px">
+        <rect x="-2" y="-2" width="4" height="2" fill="#40c463"/></g></g><g transform="translate(698 141)"><g class="fk3" style="--fx:-8px;--fy2:-10px">
+        <rect x="-2" y="-2" width="4" height="4" fill="#40c463"/></g></g><g transform="translate(698 141)"><g class="fk3" style="--fx:-3px;--fy2:-13px">
+        <rect x="-2" y="-2" width="4" height="4" fill="#40c463"/></g></g><g transform="translate(698 141)"><g class="fk3" style="--fx:4px;--fy2:-7px">
+        <rect x="-2" y="-2" width="4" height="2" fill="#40c463"/></g></g><g transform="translate(698 150)"><g class="fk4" style="--fx:-8px;--fy2:-10px">
+        <rect x="-2" y="-2" width="4" height="4" fill="#30a14e"/></g></g><g transform="translate(698 150)"><g class="fk4" style="--fx:-3px;--fy2:-13px">
+        <rect x="-2" y="-2" width="4" height="4" fill="#30a14e"/></g></g><g transform="translate(698 150)"><g class="fk4" style="--fx:4px;--fy2:-7px">
+        <rect x="-2" y="-2" width="4" height="2" fill="#30a14e"/></g></g><g transform="translate(698 159)"><g class="fk5" style="--fx:-8px;--fy2:-10px">
+        <rect x="-2" y="-2" width="4" height="4" fill="#40c463"/></g></g><g transform="translate(698 159)"><g class="fk5" style="--fx:-3px;--fy2:-13px">
+        <rect x="-2" y="-2" width="4" height="4" fill="#40c463"/></g></g><g transform="translate(698 159)"><g class="fk5" style="--fx:4px;--fy2:-7px">
+        <rect x="-2" y="-2" width="4" height="2" fill="#40c463"/></g></g><g transform="translate(698 168)"><g class="fk6" style="--fx:-8px;--fy2:-10px">
+        <rect x="-2" y="-2" width="4" height="4" fill="#9be9a8"/></g></g><g transform="translate(698 168)"><g class="fk6" style="--fx:-3px;--fy2:-13px">
+        <rect x="-2" y="-2" width="4" height="4" fill="#9be9a8"/></g></g><g transform="translate(698 168)"><g class="fk6" style="--fx:4px;--fy2:-7px">
+        <rect x="-2" y="-2" width="4" height="2" fill="#9be9a8"/></g></g><g transform="translate(708 168)"><g class="fk7" style="--fx:-8px;--fy2:-10px">
+        <rect x="-2" y="-2" width="4" height="4" fill="#9be9a8"/></g></g><g transform="translate(708 168)"><g class="fk7" style="--fx:-3px;--fy2:-13px">
+        <rect x="-2" y="-2" width="4" height="4" fill="#9be9a8"/></g></g><g transform="translate(708 168)"><g class="fk7" style="--fx:4px;--fy2:-7px">
+        <rect x="-2" y="-2" width="4" height="2" fill="#9be9a8"/></g></g><g transform="translate(718 159)"><g class="fk8" style="--fx:-8px;--fy2:-10px">
+        <rect x="-2" y="-2" width="4" height="4" fill="#40c463"/></g></g><g transform="translate(718 159)"><g class="fk8" style="--fx:-3px;--fy2:-13px">
+        <rect x="-2" y="-2" width="4" height="4" fill="#40c463"/></g></g><g transform="translate(718 159)"><g class="fk8" style="--fx:4px;--fy2:-7px">
+        <rect x="-2" y="-2" width="4" height="2" fill="#40c463"/></g></g><g transform="translate(718 168)"><g class="fk9" style="--fx:-8px;--fy2:-10px">
+        <rect x="-2" y="-2" width="4" height="4" fill="#40c463"/></g></g><g transform="translate(718 168)"><g class="fk9" style="--fx:-3px;--fy2:-13px">
+        <rect x="-2" y="-2" width="4" height="4" fill="#40c463"/></g></g><g transform="translate(718 168)"><g class="fk9" style="--fx:4px;--fy2:-7px">
+        <rect x="-2" y="-2" width="4" height="2" fill="#40c463"/></g></g><g transform="translate(738 168)"><g class="fk10" style="--fx:-8px;--fy2:-10px">
+        <rect x="-2" y="-2" width="4" height="4" fill="#216e39"/></g></g><g transform="translate(738 168)"><g class="fk10" style="--fx:-3px;--fy2:-13px">
+        <rect x="-2" y="-2" width="4" height="4" fill="#216e39"/></g></g><g transform="translate(738 168)"><g class="fk10" style="--fx:4px;--fy2:-7px">
+        <rect x="-2" y="-2" width="4" height="2" fill="#216e39"/></g></g><g transform="translate(758 141)"><g class="fk11" style="--fx:-8px;--fy2:-10px">
+        <rect x="-2" y="-2" width="4" height="4" fill="#40c463"/></g></g><g transform="translate(758 141)"><g class="fk11" style="--fx:-3px;--fy2:-13px">
+        <rect x="-2" y="-2" width="4" height="4" fill="#40c463"/></g></g><g transform="translate(758 141)"><g class="fk11" style="--fx:4px;--fy2:-7px">
+        <rect x="-2" y="-2" width="4" height="2" fill="#40c463"/></g></g><g>
     <rect x="812" y="124" width="80" height="48" fill="#a49e94"/>
-    <rect x="840" y="144" width="8" height="4" fill="#7d776d" opacity="0.5"/><rect x="840" y="148" width="8" height="4" fill="#7d776d" opacity="0.5"/><rect x="820" y="148" width="8" height="4" fill="#7d776d" opacity="0.5"/>
+    <rect x="844" y="152" width="8" height="4" fill="#7d776d" opacity="0.5"/><rect x="840" y="148" width="8" height="4" fill="#7d776d" opacity="0.5"/>
     <rect x="844" y="144" width="16" height="4" fill="#7d776d"/>
     <rect x="840" y="148" width="24" height="24" fill="#7d776d"/>
     <rect x="856" y="156" width="4" height="4" fill="#bfb9af"/>
@@ -427,7 +437,7 @@
   <g>
     <rect x="812" y="72" width="80" height="52" fill="#a49e94"/>
     <rect x="812" y="72" width="80" height="4" fill="#bfb9af"/>
-    <rect x="864" y="92" width="8" height="4" fill="#7d776d" opacity="0.5"/><rect x="832" y="104" width="8" height="4" fill="#7d776d" opacity="0.5"/><rect x="856" y="108" width="8" height="4" fill="#7d776d" opacity="0.5"/><rect x="840" y="96" width="8" height="4" fill="#7d776d" opacity="0.5"/><rect x="836" y="100" width="8" height="4" fill="#7d776d" opacity="0.5"/>
+    <rect x="820" y="96" width="8" height="4" fill="#7d776d" opacity="0.5"/><rect x="872" y="104" width="8" height="4" fill="#7d776d" opacity="0.5"/><rect x="848" y="88" width="8" height="4" fill="#7d776d" opacity="0.5"/><rect x="864" y="96" width="8" height="4" fill="#7d776d" opacity="0.5"/><rect x="816" y="92" width="8" height="4" fill="#7d776d" opacity="0.5"/><rect x="872" y="108" width="8" height="4" fill="#7d776d" opacity="0.5"/>
     <rect x="848" y="92" width="8" height="4" fill="#57534b"/>
     <rect x="844" y="96" width="16" height="16" fill="#57534b"/>
   </g>
@@ -437,57 +447,57 @@
         <rect x="852" y="20" width="24" height="4"/>
         <rect x="852" y="24" width="16" height="4"/>
         <rect x="852" y="28" width="24" height="4"/></g>
-    </g></g><g><rect x="813" y="52" width="6" height="6" fill="#e24b4a"/><rect x="821" y="52" width="6" height="6" fill="#e24b4a"/><rect x="829" y="52" width="6" height="6" fill="#e24b4a"/><rect x="837" y="52" width="6" height="6" fill="#e24b4a"/><rect x="845" y="52" width="6" height="6" fill="#e24b4a"/><rect x="853" y="52" width="6" height="6" fill="#e24b4a"/><rect x="861" y="52" width="6" height="6" fill="#e24b4a"/><rect x="869" y="52" width="6" height="6" fill="#e24b4a"/><rect x="877" y="52" width="6" height="6" fill="#e24b4a"/><rect x="885" y="52" width="6" height="6" fill="#e24b4a"/></g><g transform="translate(826 60)"><g class="kax0" style="--dx:-380px">
+    </g></g><g><rect x="813" y="52" width="6" height="6" fill="#e24b4a"/><rect x="821" y="52" width="6" height="6" fill="#e24b4a"/><rect x="829" y="52" width="6" height="6" fill="#e24b4a"/><rect x="837" y="52" width="6" height="6" fill="#e24b4a"/><rect x="845" y="52" width="6" height="6" fill="#e24b4a"/><rect x="853" y="52" width="6" height="6" fill="#e24b4a"/><rect x="861" y="52" width="6" height="6" fill="#e24b4a"/><rect x="869" y="52" width="6" height="6" fill="#e24b4a"/><rect x="877" y="52" width="6" height="6" fill="#e24b4a"/><rect x="885" y="52" width="6" height="6" fill="#e24b4a"/></g><g transform="translate(826 60)"><g class="kax0" style="--dx:-150px">
       <g class="kay0" style="--fy:104px">
         <g class="kar0">
           <rect x="-8" y="-1" width="11" height="2" fill="#57606a"/>
           <rect x="-12" y="-2" width="4" height="4" fill="#57606a"/>
           <rect x="1" y="-3" width="2" height="2" fill="#57606a"/>
           <rect x="1" y="1" width="2" height="2" fill="#57606a"/>
-        </g></g></g></g><g transform="translate(451 163)"><g class="db0" style="--px:-16px;--py:-18px">
-        <rect x="-3" y="-3" width="6" height="6" fill="#d85a30"/></g></g><g transform="translate(451 163)"><g class="db0" style="--px:-2px;--py:-22px">
-        <rect x="-2" y="-2" width="4" height="4" fill="#993c1d"/></g></g><g transform="translate(451 163)"><g class="db0" style="--px:14px;--py:-16px">
-        <rect x="-2" y="-2" width="4" height="4" fill="#d85a30"/></g></g><g transform="translate(451 163)"><g class="db0" style="--px:-20px;--py:-6px">
-        <rect x="-2" y="-2" width="4" height="4" fill="#d85a30"/></g></g><g transform="translate(451 163)"><g class="db0" style="--px:18px;--py:-8px">
-        <rect x="-3" y="-3" width="6" height="6" fill="#993c1d"/></g></g><g transform="translate(451 163)"><g class="db0" style="--px:-12px;--py:0px">
-        <rect x="-2" y="-2" width="4" height="4" fill="#d85a30"/></g></g><g transform="translate(451 163)"><g class="db0" style="--px:10px;--py:-2px">
-        <rect x="-2" y="-2" width="4" height="4" fill="#d85a30"/></g></g><g transform="translate(451 163)"><g class="db0" style="--px:4px;--py:-12px">
-        <rect x="-2" y="-2" width="4" height="4" fill="#993c1d"/></g></g><g transform="translate(451 163)"><g class="db0" style="--px:-6px;--py:-14px">
-        <rect x="-3" y="-3" width="6" height="6" fill="#d85a30"/></g></g><g transform="translate(451 163)"><g class="db0" style="--px:8px;--py:-20px">
-        <rect x="-2" y="-2" width="4" height="4" fill="#d85a30"/></g></g><g transform="translate(826 60)"><g class="kax1" style="--dx:-150px">
+        </g></g></g></g><g transform="translate(681 163)"><g class="db0" style="--px:-16px;--py:-18px">
+        <rect x="-3" y="-3" width="6" height="6" fill="#d85a30"/></g></g><g transform="translate(681 163)"><g class="db0" style="--px:-2px;--py:-22px">
+        <rect x="-2" y="-2" width="4" height="4" fill="#993c1d"/></g></g><g transform="translate(681 163)"><g class="db0" style="--px:14px;--py:-16px">
+        <rect x="-2" y="-2" width="4" height="4" fill="#d85a30"/></g></g><g transform="translate(681 163)"><g class="db0" style="--px:-20px;--py:-6px">
+        <rect x="-2" y="-2" width="4" height="4" fill="#d85a30"/></g></g><g transform="translate(681 163)"><g class="db0" style="--px:18px;--py:-8px">
+        <rect x="-3" y="-3" width="6" height="6" fill="#993c1d"/></g></g><g transform="translate(681 163)"><g class="db0" style="--px:-12px;--py:0px">
+        <rect x="-2" y="-2" width="4" height="4" fill="#d85a30"/></g></g><g transform="translate(681 163)"><g class="db0" style="--px:10px;--py:-2px">
+        <rect x="-2" y="-2" width="4" height="4" fill="#d85a30"/></g></g><g transform="translate(681 163)"><g class="db0" style="--px:4px;--py:-12px">
+        <rect x="-2" y="-2" width="4" height="4" fill="#993c1d"/></g></g><g transform="translate(681 163)"><g class="db0" style="--px:-6px;--py:-14px">
+        <rect x="-3" y="-3" width="6" height="6" fill="#d85a30"/></g></g><g transform="translate(681 163)"><g class="db0" style="--px:8px;--py:-20px">
+        <rect x="-2" y="-2" width="4" height="4" fill="#d85a30"/></g></g><g transform="translate(826 60)"><g class="kax1" style="--dx:-140px">
       <g class="kay1" style="--fy:104px">
         <g class="kar1">
           <rect x="-8" y="-1" width="11" height="2" fill="#57606a"/>
           <rect x="-12" y="-2" width="4" height="4" fill="#57606a"/>
           <rect x="1" y="-3" width="2" height="2" fill="#57606a"/>
           <rect x="1" y="1" width="2" height="2" fill="#57606a"/>
-        </g></g></g></g><g transform="translate(681 163)"><g class="db1" style="--px:-16px;--py:-18px">
-        <rect x="-3" y="-3" width="6" height="6" fill="#d85a30"/></g></g><g transform="translate(681 163)"><g class="db1" style="--px:-2px;--py:-22px">
-        <rect x="-2" y="-2" width="4" height="4" fill="#993c1d"/></g></g><g transform="translate(681 163)"><g class="db1" style="--px:14px;--py:-16px">
-        <rect x="-2" y="-2" width="4" height="4" fill="#d85a30"/></g></g><g transform="translate(681 163)"><g class="db1" style="--px:-20px;--py:-6px">
-        <rect x="-2" y="-2" width="4" height="4" fill="#d85a30"/></g></g><g transform="translate(681 163)"><g class="db1" style="--px:18px;--py:-8px">
-        <rect x="-3" y="-3" width="6" height="6" fill="#993c1d"/></g></g><g transform="translate(681 163)"><g class="db1" style="--px:-12px;--py:0px">
-        <rect x="-2" y="-2" width="4" height="4" fill="#d85a30"/></g></g><g transform="translate(681 163)"><g class="db1" style="--px:10px;--py:-2px">
-        <rect x="-2" y="-2" width="4" height="4" fill="#d85a30"/></g></g><g transform="translate(681 163)"><g class="db1" style="--px:4px;--py:-12px">
-        <rect x="-2" y="-2" width="4" height="4" fill="#993c1d"/></g></g><g transform="translate(681 163)"><g class="db1" style="--px:-6px;--py:-14px">
-        <rect x="-3" y="-3" width="6" height="6" fill="#d85a30"/></g></g><g transform="translate(681 163)"><g class="db1" style="--px:8px;--py:-20px">
-        <rect x="-2" y="-2" width="4" height="4" fill="#d85a30"/></g></g><g transform="translate(826 60)"><g class="kax2" style="--dx:-140px">
+        </g></g></g></g><g transform="translate(691 163)"><g class="db1" style="--px:-16px;--py:-18px">
+        <rect x="-3" y="-3" width="6" height="6" fill="#d85a30"/></g></g><g transform="translate(691 163)"><g class="db1" style="--px:-2px;--py:-22px">
+        <rect x="-2" y="-2" width="4" height="4" fill="#993c1d"/></g></g><g transform="translate(691 163)"><g class="db1" style="--px:14px;--py:-16px">
+        <rect x="-2" y="-2" width="4" height="4" fill="#d85a30"/></g></g><g transform="translate(691 163)"><g class="db1" style="--px:-20px;--py:-6px">
+        <rect x="-2" y="-2" width="4" height="4" fill="#d85a30"/></g></g><g transform="translate(691 163)"><g class="db1" style="--px:18px;--py:-8px">
+        <rect x="-3" y="-3" width="6" height="6" fill="#993c1d"/></g></g><g transform="translate(691 163)"><g class="db1" style="--px:-12px;--py:0px">
+        <rect x="-2" y="-2" width="4" height="4" fill="#d85a30"/></g></g><g transform="translate(691 163)"><g class="db1" style="--px:10px;--py:-2px">
+        <rect x="-2" y="-2" width="4" height="4" fill="#d85a30"/></g></g><g transform="translate(691 163)"><g class="db1" style="--px:4px;--py:-12px">
+        <rect x="-2" y="-2" width="4" height="4" fill="#993c1d"/></g></g><g transform="translate(691 163)"><g class="db1" style="--px:-6px;--py:-14px">
+        <rect x="-3" y="-3" width="6" height="6" fill="#d85a30"/></g></g><g transform="translate(691 163)"><g class="db1" style="--px:8px;--py:-20px">
+        <rect x="-2" y="-2" width="4" height="4" fill="#d85a30"/></g></g><g transform="translate(826 60)"><g class="kax2" style="--dx:-90px">
       <g class="kay2" style="--fy:104px">
         <g class="kar2">
           <rect x="-8" y="-1" width="11" height="2" fill="#57606a"/>
           <rect x="-12" y="-2" width="4" height="4" fill="#57606a"/>
           <rect x="1" y="-3" width="2" height="2" fill="#57606a"/>
           <rect x="1" y="1" width="2" height="2" fill="#57606a"/>
-        </g></g></g></g><g transform="translate(691 163)"><g class="db2" style="--px:-16px;--py:-18px">
-        <rect x="-3" y="-3" width="6" height="6" fill="#d85a30"/></g></g><g transform="translate(691 163)"><g class="db2" style="--px:-2px;--py:-22px">
-        <rect x="-2" y="-2" width="4" height="4" fill="#993c1d"/></g></g><g transform="translate(691 163)"><g class="db2" style="--px:14px;--py:-16px">
-        <rect x="-2" y="-2" width="4" height="4" fill="#d85a30"/></g></g><g transform="translate(691 163)"><g class="db2" style="--px:-20px;--py:-6px">
-        <rect x="-2" y="-2" width="4" height="4" fill="#d85a30"/></g></g><g transform="translate(691 163)"><g class="db2" style="--px:18px;--py:-8px">
-        <rect x="-3" y="-3" width="6" height="6" fill="#993c1d"/></g></g><g transform="translate(691 163)"><g class="db2" style="--px:-12px;--py:0px">
-        <rect x="-2" y="-2" width="4" height="4" fill="#d85a30"/></g></g><g transform="translate(691 163)"><g class="db2" style="--px:10px;--py:-2px">
-        <rect x="-2" y="-2" width="4" height="4" fill="#d85a30"/></g></g><g transform="translate(691 163)"><g class="db2" style="--px:4px;--py:-12px">
-        <rect x="-2" y="-2" width="4" height="4" fill="#993c1d"/></g></g><g transform="translate(691 163)"><g class="db2" style="--px:-6px;--py:-14px">
-        <rect x="-3" y="-3" width="6" height="6" fill="#d85a30"/></g></g><g transform="translate(691 163)"><g class="db2" style="--px:8px;--py:-20px">
+        </g></g></g></g><g transform="translate(741 163)"><g class="db2" style="--px:-16px;--py:-18px">
+        <rect x="-3" y="-3" width="6" height="6" fill="#d85a30"/></g></g><g transform="translate(741 163)"><g class="db2" style="--px:-2px;--py:-22px">
+        <rect x="-2" y="-2" width="4" height="4" fill="#993c1d"/></g></g><g transform="translate(741 163)"><g class="db2" style="--px:14px;--py:-16px">
+        <rect x="-2" y="-2" width="4" height="4" fill="#d85a30"/></g></g><g transform="translate(741 163)"><g class="db2" style="--px:-20px;--py:-6px">
+        <rect x="-2" y="-2" width="4" height="4" fill="#d85a30"/></g></g><g transform="translate(741 163)"><g class="db2" style="--px:18px;--py:-8px">
+        <rect x="-3" y="-3" width="6" height="6" fill="#993c1d"/></g></g><g transform="translate(741 163)"><g class="db2" style="--px:-12px;--py:0px">
+        <rect x="-2" y="-2" width="4" height="4" fill="#d85a30"/></g></g><g transform="translate(741 163)"><g class="db2" style="--px:10px;--py:-2px">
+        <rect x="-2" y="-2" width="4" height="4" fill="#d85a30"/></g></g><g transform="translate(741 163)"><g class="db2" style="--px:4px;--py:-12px">
+        <rect x="-2" y="-2" width="4" height="4" fill="#993c1d"/></g></g><g transform="translate(741 163)"><g class="db2" style="--px:-6px;--py:-14px">
+        <rect x="-3" y="-3" width="6" height="6" fill="#d85a30"/></g></g><g transform="translate(741 163)"><g class="db2" style="--px:8px;--py:-20px">
         <rect x="-2" y="-2" width="4" height="4" fill="#d85a30"/></g></g><g transform="translate(40 150)"><g class="msx0"><g class="msy0">
       <g class="msr0" style="transform-box:fill-box;transform-origin:center">
         <rect x="-3" y="-3" width="6" height="6" fill="#3c1508"/>
@@ -518,7 +528,10 @@
         <rect x="-1" y="-6" width="2" height="3" fill="#e2701f"/></g></g></g></g><g transform="translate(40 150)"><g class="msx9"><g class="msy9">
       <g class="msr9" style="transform-box:fill-box;transform-origin:center">
         <rect x="-3" y="-3" width="6" height="6" fill="#3c1508"/>
-        <rect x="-1" y="-6" width="2" height="3" fill="#e2701f"/></g></g></g></g><g transform="translate(718 168)"><g class="ef0"><rect x="-7" y="-7" width="14" height="14" fill="#f0a04a"/></g><g class="ep0" style="--px:-18px;--py:-14px">
+        <rect x="-1" y="-6" width="2" height="3" fill="#e2701f"/></g></g></g></g><g transform="translate(40 150)"><g class="msx10"><g class="msy10">
+      <g class="msr10" style="transform-box:fill-box;transform-origin:center">
+        <rect x="-3" y="-3" width="6" height="6" fill="#3c1508"/>
+        <rect x="-1" y="-6" width="2" height="3" fill="#e2701f"/></g></g></g></g><g transform="translate(468 159)"><g class="ef0"><rect x="-7" y="-7" width="14" height="14" fill="#f0a04a"/></g><g class="ep0" style="--px:-18px;--py:-14px">
         <rect x="-3" y="-3" width="6" height="6" fill="#e2701f"/></g><g class="ep0" style="--px:0px;--py:-20px">
         <rect x="-2" y="-2" width="4" height="4" fill="#8b949e"/></g><g class="ep0" style="--px:16px;--py:-12px">
         <rect x="-2" y="-2" width="4" height="4" fill="#e2701f"/></g><g class="ep0" style="--px:-22px;--py:0px">
@@ -528,7 +541,7 @@
         <rect x="-3" y="-3" width="6" height="6" fill="#e2701f"/></g><g class="ep0" style="--px:4px;--py:-16px">
         <rect x="-2" y="-2" width="4" height="4" fill="#8b949e"/></g><g class="ep0" style="--px:-8px;--py:16px">
         <rect x="-2" y="-2" width="4" height="4" fill="#e2701f"/></g><g class="ep0" style="--px:22px;--py:-14px">
-        <rect x="-3" y="-3" width="6" height="6" fill="#8b949e"/></g></g><g transform="translate(788 159)"><g class="ef1"><rect x="-7" y="-7" width="14" height="14" fill="#f0a04a"/></g><g class="ep1" style="--px:-18px;--py:-14px">
+        <rect x="-3" y="-3" width="6" height="6" fill="#8b949e"/></g></g><g transform="translate(768 141)"><g class="ef1"><rect x="-7" y="-7" width="14" height="14" fill="#f0a04a"/></g><g class="ep1" style="--px:-18px;--py:-14px">
         <rect x="-3" y="-3" width="6" height="6" fill="#e2701f"/></g><g class="ep1" style="--px:0px;--py:-20px">
         <rect x="-2" y="-2" width="4" height="4" fill="#8b949e"/></g><g class="ep1" style="--px:16px;--py:-12px">
         <rect x="-2" y="-2" width="4" height="4" fill="#e2701f"/></g><g class="ep1" style="--px:-22px;--py:0px">
@@ -538,7 +551,7 @@
         <rect x="-3" y="-3" width="6" height="6" fill="#e2701f"/></g><g class="ep1" style="--px:4px;--py:-16px">
         <rect x="-2" y="-2" width="4" height="4" fill="#8b949e"/></g><g class="ep1" style="--px:-8px;--py:16px">
         <rect x="-2" y="-2" width="4" height="4" fill="#e2701f"/></g><g class="ep1" style="--px:22px;--py:-14px">
-        <rect x="-3" y="-3" width="6" height="6" fill="#8b949e"/></g></g><g transform="translate(768 141)"><g class="ef2"><rect x="-7" y="-7" width="14" height="14" fill="#f0a04a"/></g><g class="ep2" style="--px:-18px;--py:-14px">
+        <rect x="-3" y="-3" width="6" height="6" fill="#8b949e"/></g></g><g transform="translate(708 159)"><g class="ef2"><rect x="-7" y="-7" width="14" height="14" fill="#f0a04a"/></g><g class="ep2" style="--px:-18px;--py:-14px">
         <rect x="-3" y="-3" width="6" height="6" fill="#e2701f"/></g><g class="ep2" style="--px:0px;--py:-20px">
         <rect x="-2" y="-2" width="4" height="4" fill="#8b949e"/></g><g class="ep2" style="--px:16px;--py:-12px">
         <rect x="-2" y="-2" width="4" height="4" fill="#e2701f"/></g><g class="ep2" style="--px:-22px;--py:0px">
@@ -548,7 +561,7 @@
         <rect x="-3" y="-3" width="6" height="6" fill="#e2701f"/></g><g class="ep2" style="--px:4px;--py:-16px">
         <rect x="-2" y="-2" width="4" height="4" fill="#8b949e"/></g><g class="ep2" style="--px:-8px;--py:16px">
         <rect x="-2" y="-2" width="4" height="4" fill="#e2701f"/></g><g class="ep2" style="--px:22px;--py:-14px">
-        <rect x="-3" y="-3" width="6" height="6" fill="#8b949e"/></g></g><g transform="translate(778 150)"><g class="ef3"><rect x="-7" y="-7" width="14" height="14" fill="#f0a04a"/></g><g class="ep3" style="--px:-18px;--py:-14px">
+        <rect x="-3" y="-3" width="6" height="6" fill="#8b949e"/></g></g><g transform="translate(728 132)"><g class="ef3"><rect x="-7" y="-7" width="14" height="14" fill="#f0a04a"/></g><g class="ep3" style="--px:-18px;--py:-14px">
         <rect x="-3" y="-3" width="6" height="6" fill="#e2701f"/></g><g class="ep3" style="--px:0px;--py:-20px">
         <rect x="-2" y="-2" width="4" height="4" fill="#8b949e"/></g><g class="ep3" style="--px:16px;--py:-12px">
         <rect x="-2" y="-2" width="4" height="4" fill="#e2701f"/></g><g class="ep3" style="--px:-22px;--py:0px">
@@ -558,7 +571,7 @@
         <rect x="-3" y="-3" width="6" height="6" fill="#e2701f"/></g><g class="ep3" style="--px:4px;--py:-16px">
         <rect x="-2" y="-2" width="4" height="4" fill="#8b949e"/></g><g class="ep3" style="--px:-8px;--py:16px">
         <rect x="-2" y="-2" width="4" height="4" fill="#e2701f"/></g><g class="ep3" style="--px:22px;--py:-14px">
-        <rect x="-3" y="-3" width="6" height="6" fill="#8b949e"/></g></g><g transform="translate(728 141)"><g class="ef4"><rect x="-7" y="-7" width="14" height="14" fill="#f0a04a"/></g><g class="ep4" style="--px:-18px;--py:-14px">
+        <rect x="-3" y="-3" width="6" height="6" fill="#8b949e"/></g></g><g transform="translate(708 168)"><g class="ef4"><rect x="-7" y="-7" width="14" height="14" fill="#f0a04a"/></g><g class="ep4" style="--px:-18px;--py:-14px">
         <rect x="-3" y="-3" width="6" height="6" fill="#e2701f"/></g><g class="ep4" style="--px:0px;--py:-20px">
         <rect x="-2" y="-2" width="4" height="4" fill="#8b949e"/></g><g class="ep4" style="--px:16px;--py:-12px">
         <rect x="-2" y="-2" width="4" height="4" fill="#e2701f"/></g><g class="ep4" style="--px:-22px;--py:0px">
@@ -568,7 +581,7 @@
         <rect x="-3" y="-3" width="6" height="6" fill="#e2701f"/></g><g class="ep4" style="--px:4px;--py:-16px">
         <rect x="-2" y="-2" width="4" height="4" fill="#8b949e"/></g><g class="ep4" style="--px:-8px;--py:16px">
         <rect x="-2" y="-2" width="4" height="4" fill="#e2701f"/></g><g class="ep4" style="--px:22px;--py:-14px">
-        <rect x="-3" y="-3" width="6" height="6" fill="#8b949e"/></g></g><g transform="translate(708 150)"><g class="ef5"><rect x="-7" y="-7" width="14" height="14" fill="#f0a04a"/></g><g class="ep5" style="--px:-18px;--py:-14px">
+        <rect x="-3" y="-3" width="6" height="6" fill="#8b949e"/></g></g><g transform="translate(748 168)"><g class="ef5"><rect x="-7" y="-7" width="14" height="14" fill="#f0a04a"/></g><g class="ep5" style="--px:-18px;--py:-14px">
         <rect x="-3" y="-3" width="6" height="6" fill="#e2701f"/></g><g class="ep5" style="--px:0px;--py:-20px">
         <rect x="-2" y="-2" width="4" height="4" fill="#8b949e"/></g><g class="ep5" style="--px:16px;--py:-12px">
         <rect x="-2" y="-2" width="4" height="4" fill="#e2701f"/></g><g class="ep5" style="--px:-22px;--py:0px">
@@ -578,7 +591,7 @@
         <rect x="-3" y="-3" width="6" height="6" fill="#e2701f"/></g><g class="ep5" style="--px:4px;--py:-16px">
         <rect x="-2" y="-2" width="4" height="4" fill="#8b949e"/></g><g class="ep5" style="--px:-8px;--py:16px">
         <rect x="-2" y="-2" width="4" height="4" fill="#e2701f"/></g><g class="ep5" style="--px:22px;--py:-14px">
-        <rect x="-3" y="-3" width="6" height="6" fill="#8b949e"/></g></g><g transform="translate(748 168)"><g class="ef6"><rect x="-7" y="-7" width="14" height="14" fill="#f0a04a"/></g><g class="ep6" style="--px:-18px;--py:-14px">
+        <rect x="-3" y="-3" width="6" height="6" fill="#8b949e"/></g></g><g transform="translate(738 150)"><g class="ef6"><rect x="-7" y="-7" width="14" height="14" fill="#f0a04a"/></g><g class="ep6" style="--px:-18px;--py:-14px">
         <rect x="-3" y="-3" width="6" height="6" fill="#e2701f"/></g><g class="ep6" style="--px:0px;--py:-20px">
         <rect x="-2" y="-2" width="4" height="4" fill="#8b949e"/></g><g class="ep6" style="--px:16px;--py:-12px">
         <rect x="-2" y="-2" width="4" height="4" fill="#e2701f"/></g><g class="ep6" style="--px:-22px;--py:0px">
@@ -588,7 +601,7 @@
         <rect x="-3" y="-3" width="6" height="6" fill="#e2701f"/></g><g class="ep6" style="--px:4px;--py:-16px">
         <rect x="-2" y="-2" width="4" height="4" fill="#8b949e"/></g><g class="ep6" style="--px:-8px;--py:16px">
         <rect x="-2" y="-2" width="4" height="4" fill="#e2701f"/></g><g class="ep6" style="--px:22px;--py:-14px">
-        <rect x="-3" y="-3" width="6" height="6" fill="#8b949e"/></g></g><g transform="translate(758 150)"><g class="ef7"><rect x="-7" y="-7" width="14" height="14" fill="#f0a04a"/></g><g class="ep7" style="--px:-18px;--py:-14px">
+        <rect x="-3" y="-3" width="6" height="6" fill="#8b949e"/></g></g><g transform="translate(728 159)"><g class="ef7"><rect x="-7" y="-7" width="14" height="14" fill="#f0a04a"/></g><g class="ep7" style="--px:-18px;--py:-14px">
         <rect x="-3" y="-3" width="6" height="6" fill="#e2701f"/></g><g class="ep7" style="--px:0px;--py:-20px">
         <rect x="-2" y="-2" width="4" height="4" fill="#8b949e"/></g><g class="ep7" style="--px:16px;--py:-12px">
         <rect x="-2" y="-2" width="4" height="4" fill="#e2701f"/></g><g class="ep7" style="--px:-22px;--py:0px">
@@ -598,7 +611,7 @@
         <rect x="-3" y="-3" width="6" height="6" fill="#e2701f"/></g><g class="ep7" style="--px:4px;--py:-16px">
         <rect x="-2" y="-2" width="4" height="4" fill="#8b949e"/></g><g class="ep7" style="--px:-8px;--py:16px">
         <rect x="-2" y="-2" width="4" height="4" fill="#e2701f"/></g><g class="ep7" style="--px:22px;--py:-14px">
-        <rect x="-3" y="-3" width="6" height="6" fill="#8b949e"/></g></g><g transform="translate(738 150)"><g class="ef8"><rect x="-7" y="-7" width="14" height="14" fill="#f0a04a"/></g><g class="ep8" style="--px:-18px;--py:-14px">
+        <rect x="-3" y="-3" width="6" height="6" fill="#8b949e"/></g></g><g transform="translate(798 141)"><g class="ef8"><rect x="-7" y="-7" width="14" height="14" fill="#f0a04a"/></g><g class="ep8" style="--px:-18px;--py:-14px">
         <rect x="-3" y="-3" width="6" height="6" fill="#e2701f"/></g><g class="ep8" style="--px:0px;--py:-20px">
         <rect x="-2" y="-2" width="4" height="4" fill="#8b949e"/></g><g class="ep8" style="--px:16px;--py:-12px">
         <rect x="-2" y="-2" width="4" height="4" fill="#e2701f"/></g><g class="ep8" style="--px:-22px;--py:0px">
@@ -608,7 +621,7 @@
         <rect x="-3" y="-3" width="6" height="6" fill="#e2701f"/></g><g class="ep8" style="--px:4px;--py:-16px">
         <rect x="-2" y="-2" width="4" height="4" fill="#8b949e"/></g><g class="ep8" style="--px:-8px;--py:16px">
         <rect x="-2" y="-2" width="4" height="4" fill="#e2701f"/></g><g class="ep8" style="--px:22px;--py:-14px">
-        <rect x="-3" y="-3" width="6" height="6" fill="#8b949e"/></g></g><g transform="translate(798 150)"><g class="ef9"><rect x="-7" y="-7" width="14" height="14" fill="#f0a04a"/></g><g class="ep9" style="--px:-18px;--py:-14px">
+        <rect x="-3" y="-3" width="6" height="6" fill="#8b949e"/></g></g><g transform="translate(798 159)"><g class="ef9"><rect x="-7" y="-7" width="14" height="14" fill="#f0a04a"/></g><g class="ep9" style="--px:-18px;--py:-14px">
         <rect x="-3" y="-3" width="6" height="6" fill="#e2701f"/></g><g class="ep9" style="--px:0px;--py:-20px">
         <rect x="-2" y="-2" width="4" height="4" fill="#8b949e"/></g><g class="ep9" style="--px:16px;--py:-12px">
         <rect x="-2" y="-2" width="4" height="4" fill="#e2701f"/></g><g class="ep9" style="--px:-22px;--py:0px">
@@ -618,5 +631,15 @@
         <rect x="-3" y="-3" width="6" height="6" fill="#e2701f"/></g><g class="ep9" style="--px:4px;--py:-16px">
         <rect x="-2" y="-2" width="4" height="4" fill="#8b949e"/></g><g class="ep9" style="--px:-8px;--py:16px">
         <rect x="-2" y="-2" width="4" height="4" fill="#e2701f"/></g><g class="ep9" style="--px:22px;--py:-14px">
+        <rect x="-3" y="-3" width="6" height="6" fill="#8b949e"/></g></g><g transform="translate(768 150)"><g class="ef10"><rect x="-7" y="-7" width="14" height="14" fill="#f0a04a"/></g><g class="ep10" style="--px:-18px;--py:-14px">
+        <rect x="-3" y="-3" width="6" height="6" fill="#e2701f"/></g><g class="ep10" style="--px:0px;--py:-20px">
+        <rect x="-2" y="-2" width="4" height="4" fill="#8b949e"/></g><g class="ep10" style="--px:16px;--py:-12px">
+        <rect x="-2" y="-2" width="4" height="4" fill="#e2701f"/></g><g class="ep10" style="--px:-22px;--py:0px">
+        <rect x="-3" y="-3" width="6" height="6" fill="#8b949e"/></g><g class="ep10" style="--px:20px;--py:-2px">
+        <rect x="-2" y="-2" width="4" height="4" fill="#e2701f"/></g><g class="ep10" style="--px:-14px;--py:10px">
+        <rect x="-2" y="-2" width="4" height="4" fill="#8b949e"/></g><g class="ep10" style="--px:12px;--py:12px">
+        <rect x="-3" y="-3" width="6" height="6" fill="#e2701f"/></g><g class="ep10" style="--px:4px;--py:-16px">
+        <rect x="-2" y="-2" width="4" height="4" fill="#8b949e"/></g><g class="ep10" style="--px:-8px;--py:16px">
+        <rect x="-2" y="-2" width="4" height="4" fill="#e2701f"/></g><g class="ep10" style="--px:22px;--py:-14px">
         <rect x="-3" y="-3" width="6" height="6" fill="#8b949e"/></g></g>
 </svg>
